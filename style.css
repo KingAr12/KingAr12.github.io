@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(160deg, #35577D, #141E30);
+}
+
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -10,35 +14,33 @@ h3.mainhead {
     color:rgba(28, 182, 209, 0.89);
 }
 
-.intro {
-    color: rgb(7, 107, 153);
-}
-
-.doc {
-    color:rgb(7, 107, 153);
-}
-
-.prog {
-    color:rgb(7, 107, 153);
-}
-
-.plans {
-    color:rgb(7, 107, 153);
-}
-
+.intro,
+.doc,
+.prog,
+.plans,
 .cal {
-    color:rgb(64, 94, 60);
+    color:aliceblue;
+}
+
+.cal table {
     font-size: x-large;
     font-weight: bolder;
-    border: 2px solid rgb(15, 41, 0);
+}
+
+.cal th {
+    border: 2px solid rgb(191, 214, 177);
 }
 
 .cal td {
-    border: 2px solid rgb(15, 41, 0);
+    border: 2px solid rgb(191, 214, 177);
+}
+
+td {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .cal td:hover {
-    color: rgba(127, 255, 212, 0.726);
+    color: rgba(129, 211, 184, 0.726);
 }
 
 .footer {
