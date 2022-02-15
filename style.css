@@ -1,0 +1,32 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainhead {
+    color: rgb(175, 88, 175);
+}
+
+h3.mainhead {
+    color:rgba(28, 182, 209, 0.89);
+}
+
+.intro {
+    color: rgb(7, 107, 153);
+}
+
+.doc {
+    color:rgb(7, 107, 153);
+}
+
+.prog {
+    color:rgb(7, 107, 153);
+}
+
+.plans {
+    color:rgb(7, 107, 153);
+}
+
+.footer {
+    color:rgb(7, 107, 153);
+}
+
