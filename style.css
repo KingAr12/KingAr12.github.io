@@ -1,28 +1,55 @@
 body {
     background: linear-gradient(60deg, #9e1b98, #252fb6);
+    color:aliceblue;
+}
+
+#photo {
     background-image: url('imgs/richmondlowes.JPG');
     background-position: 50% 50%;
-    color:aliceblue;
 }
 
 
 header {
     text-align: center;
+    width: 330px;
+    height: 350px;
+    border: 3px solid rgb(187, 220, 233);
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #b6baee;
+    opacity: .90;
+}
+
+h3.location{
+    font-size: 30px;
+    background-color: #c2c5ee;
+    opacity: .90;
+}
+
+
+main {
+    border: 2px solid rgb(187, 220, 233);
+    width: auto;
 }
 
 
 .intro {
     text-align: center;
+    border: 2px solid rgb(187, 220, 233);
 }
 
 
 .doc {
     text-align: center;
+    border: 2px solid rgb(187, 220, 233);
 }
 
 
-.prog {
+section.prog {
     text-align: center;
+    border: 2px solid rgb(187, 220, 233);
 }
 
 .prog ul {
@@ -30,13 +57,18 @@ header {
 }
 
 
-.plans {
+section.plans {
     text-align: center;
+    border: 2px solid rgb(187, 220, 233);
 }
 
 
 .cal {
     text-align: center;
+}
+
+table.cal {
+    border: 2px solid rgb(187, 220, 233);
 }
 
 
