@@ -1,8 +1,45 @@
 body {
     background: linear-gradient(60deg, #9e1b98, #252fb6);
-}
-
-body.bgimg {
     background-image: url('imgs/richmondlowes.JPG');
     background-position: 50% 50%;
+    color:aliceblue;
+}
+
+
+header {
+    text-align: center;
+}
+
+
+.intro {
+    text-align: center;
+}
+
+
+.doc {
+    text-align: center;
+}
+
+
+.prog {
+    text-align: center;
+}
+
+.prog ul {
+    text-align: center;
+}
+
+
+.plans {
+    text-align: center;
+}
+
+
+.cal {
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
 }
