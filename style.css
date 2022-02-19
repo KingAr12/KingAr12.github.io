@@ -1,49 +1,8 @@
 body {
-    background: linear-gradient(160deg, #35577D, #141E30);
+    background: linear-gradient(60deg, #9e1b98, #252fb6);
 }
 
-* {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body.bgimg {
+    background-image: url('imgs/richmondlowes.JPG');
+    background-position: 50% 50%;
 }
-
-.mainhead {
-    color: rgb(175, 88, 175);
-}
-
-h3.mainhead {
-    color:rgba(28, 182, 209, 0.89);
-}
-
-.intro,
-.doc,
-.prog,
-.plans,
-.cal {
-    color:aliceblue;
-}
-
-.cal table {
-    font-size: x-large;
-    font-weight: bolder;
-}
-
-.cal th {
-    border: 2px solid rgb(191, 214, 177);
-}
-
-.cal td {
-    border: 2px solid rgb(191, 214, 177);
-}
-
-td {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.cal td:hover {
-    color: rgba(129, 211, 184, 0.726);
-}
-
-.footer {
-    color:rgb(7, 107, 153);
-}
-
