@@ -5,51 +5,63 @@ body {
 
 #photo {
     background-image: url('imgs/richmondlowes.JPG');
-    background-position: 50% 50%;
+    background-position: center;
 }
 
 
 header {
     text-align: center;
     width: 330px;
-    height: 350px;
-    border: 3px solid rgb(187, 220, 233);
+    margin: auto;
 }
 
 h1 {
     font-size: 50px;
     background-color: #b6baee;
-    opacity: .90;
+    border: 3px solid rgb(187, 220, 233);
+    border-radius: 40px;
 }
 
 h3.location{
     font-size: 30px;
     background-color: #c2c5ee;
-    opacity: .90;
+    border: 3px solid rgb(187, 220, 233);
+    border-radius: 40px;
+}
+
+#self {
+    border: 3px solid rgb(187, 220, 233)
+    width;
 }
 
 
 main {
-    border: 2px solid rgb(187, 220, 233);
-    width: auto;
+    border: 1px solid rgb(187, 220, 233);
+    width: 500px;
+    margin: auto;
+
 }
 
 
 .intro {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
+    border-radius: 30px;;
+
 }
 
 
 .doc {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
+    border-radius: 30px;
 }
 
 
 section.prog {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
+    border-radius: 30px;
 }
 
 .prog ul {
@@ -60,6 +72,7 @@ section.prog {
 section.plans {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
+    border-radius: 30px;
 }
 
 
@@ -69,9 +82,13 @@ section.plans {
 
 table.cal {
     border: 2px solid rgb(187, 220, 233);
+    margin: auto;
 }
 
 
 .footer {
     text-align: center;
+    margin: auto;
+    border: 2px solid rgb(187, 220, 233);
+    width: 500px;
 }
