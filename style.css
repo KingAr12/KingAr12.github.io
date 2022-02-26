@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background: linear-gradient(60deg, #9e1b98, #252fb6);
     color:aliceblue;
 }
+
 
 #photo {
     background-image: url('imgs/richmondlowes.JPG');
@@ -12,49 +20,62 @@ body {
 header {
     text-align: center;
     width: 330px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 50px;
     background-color: #b6baee;
     border: 3px solid rgb(187, 220, 233);
     border-radius: 40px;
+    margin-right: auto;
+}
+
+
+h1 {
+    font-size: 50px;
+    display: inline;
+}
+
+h1.header:hover {
+    color:rgb(100, 170, 170);
 }
 
 h3.location{
     font-size: 30px;
-    background-color: #c2c5ee;
-    border: 3px solid rgb(187, 220, 233);
-    border-radius: 40px;
 }
 
 #self {
-    border: 3px solid rgb(187, 220, 233)
-    width;
+    border: 3px solid rgb(187, 220, 233);
+    width: 100px;
+    text-align: right;
+    margin-left: auto;
 }
 
 
 main {
-    border: 1px solid rgb(187, 220, 233);
-    width: 500px;
-    margin: auto;
-
+    margin: 0 auto;
 }
 
 
-.intro {
-    text-align: center;
-    border: 2px solid rgb(187, 220, 233);
-    border-radius: 30px;;
-
+.intro,
+.doc,
+.prog,
+.plans {
+    background-color: rgb(126, 163, 196);
 }
 
 
-.doc {
+section.intro {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
     border-radius: 30px;
+    width: 500px;
+    margin-bottom: 120px;
+}
+
+
+section.doc {
+    text-align: center;
+    border: 2px solid rgb(187, 220, 233);
+    border-radius: 30px;
+    width: 500px;
+    margin-left: auto;
 }
 
 
@@ -62,6 +83,7 @@ section.prog {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
     border-radius: 30px;
+    width: 400px;
 }
 
 .prog ul {
@@ -73,6 +95,13 @@ section.plans {
     text-align: center;
     border: 2px solid rgb(187, 220, 233);
     border-radius: 30px;
+    width: 400px;
+    margin-left: auto;
+}
+
+ol.plans li {
+    width: 320px;
+    margin: auto;
 }
 
 
@@ -82,7 +111,11 @@ section.plans {
 
 table.cal {
     border: 2px solid rgb(187, 220, 233);
-    margin: auto;
+    margin: 0 auto;
+    font-size: 50px;
+    height: 500px;
+    width: 500px;
+    
 }
 
 
