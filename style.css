@@ -125,3 +125,8 @@ table.cal {
     border: 2px solid rgb(187, 220, 233);
     width: 500px;
 }
+
+div.socials span {
+    border: 2px solid rgb(187, 220, 233);
+    background-color: #f6f6fc;
+}

@@ -2,4 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(255, 217, 231);
+}
+
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(189, 65, 112);
+}
+
+
+header {
+    background-color: rgb(148, 33, 77);
+    margin: 0 auto;
+    padding-top: 40px;
+    width: auto;
+    font-size: 30px;
+    height: 166px;
+}
+
+header.header h1 {
+    border: 5px solid rgb(197, 119, 149);
+    border-radius: 15%;
+    background-size: auto;
+    width: 400px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+header.header p {
+    background-color: rgb(148, 33, 77);
+    width:fit-content; 
+    height: auto;
+    margin-left: auto;
+    margin-right: 5px;
+    font-size: 18px;
+    color:rgb(255, 217, 231)
+}
+
+
+.intro {
+    font-size: 20px;
+    border: 2px dotted rgb(189, 65, 112);
+    width: 500px;
+    margin: 10px auto;
+    height: 150px;
+}
+
+
+.inline {
+    display: inline-block ;
+}
+
+figcaption {
+    font-weight: bold;
 }
