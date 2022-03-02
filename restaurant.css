@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 217, 231);
+    background-color: rgb(255, 217, 231);   
 }
 
 
@@ -38,21 +38,34 @@ header.header h1 {
 
 header.header p {
     background-color: rgb(148, 33, 77);
-    width:fit-content; 
-    height: auto;
-    margin-left: auto;
-    margin-right: 155px;
+    border-radius: 0px 0px 15px 15px;
+    width: 335px; 
+    height: 40px;
+    padding: 7px;
     font-size: 17px;
-    color:rgb(255, 217, 231);   
+    color:rgb(255, 217, 231);
+    position: fixed;
+    right: 0px;
+    top: 0px; 
+}
+
+header.header p:hover {
+    color:rgb(148, 33, 77);
+    background-color:rgb(255, 217, 231);
+    border: 5px solid rgb(197, 119, 149);
+    border-radius: 20px;
+    padding: 16px 0px;
+    width: 350px;
+    height: 70px;
 }
 
 
 main {
     width: 1300px;
-    height: 700px;
+    height: 1700px;
     margin: 0 auto;
     background-color: rgb(255, 217, 231);
-    border-radius: 4%;
+    border-radius: 50px;
 }
 
 
@@ -69,25 +82,56 @@ main {
 }
 
 
+.photos {
+    width: fit-content;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.collage {
+    position: sticky;
+    top: 150px
+}
+
 .inline {
     display: inline-block;
     margin: 18px;
 }
 
-.img {
+img {
     border: 5px solid rgb(218, 126, 161);
     background-color: rgb(218, 126, 161);
     box-sizing: content-box;
     margin-top: 20px;
 }
 
-.img:hover {
+img:hover {
     border: 0;
 }
 
 figcaption {
     font-weight: bold;
 }
+
+
+.menu {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu table {
+    color:rgb(255, 217, 231);
+    margin: 0 auto;
+    height: 300px;
+    width: 1100px;
+}
+
+table.menu th,
+table.menu td {
+    border: 1px solid rgb(255, 217, 231) ;
+    background-color:rgb(192, 88, 128);
+}
+
 
 
 footer {
