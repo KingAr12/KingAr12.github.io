@@ -43,9 +43,10 @@ h3.location{
     width: 100px;
     text-align: right;
     margin-left: auto;
-    position: absolute;
+    position: fixed;
     right: 50px;
     top: 40px;
+    z-index: 1;
 }
 
 

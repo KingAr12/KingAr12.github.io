@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 217, 231);   
+    background-color: rgb(250, 221, 231);   
 }
 
 
@@ -53,7 +53,7 @@ header.header p:hover {
     color:rgb(148, 33, 77);
     background-color:rgb(255, 217, 231);
     border: 5px solid rgb(197, 119, 149);
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
     padding: 16px 0px;
     width: 350px;
     height: 70px;
@@ -85,7 +85,7 @@ main {
 .photos {
     width: fit-content;
     margin: 0 auto;
-    height: 500px;
+    height: 700px;
 }
 
 .collage {
@@ -101,6 +101,8 @@ main {
 img {
     border: 5px solid rgb(218, 126, 161);
     background-color: rgb(218, 126, 161);
+    height: 250px;
+    width: 250px;
     box-sizing: content-box;
     margin-top: 20px;
 }
@@ -132,6 +134,33 @@ table.menu td {
     background-color:rgb(192, 88, 128);
 }
 
+table.menu th {
+    font-size: 30px;
+    height: 50px;
+    border: 4px solid rgb(224, 126, 164);
+    border-radius: 15px;
+}
+
+tr.menusize {
+    font-size: 25px;
+}
+
+tr.menusize td {
+    border: 4px solid rgb(224, 126, 164);
+    border-radius: 0px 0px 30px 30px;
+}
+
+tr.dish td {
+    font-weight: bold;
+    font-size: 18px;
+    border: 4px solid rgb(224, 126, 164);
+    background-color: rgb(255, 217, 231);
+    color: rgb(148, 33, 77);
+}
+
+table.menu td {
+    width: 400px;
+}
 
 
 footer {
