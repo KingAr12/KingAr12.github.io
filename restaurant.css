@@ -173,8 +173,19 @@ footer {
     color: rgb(255, 217, 231);
 }
 
-footer p {
+footer p,
+footer h3 {
     background-color:rgb(148, 33, 77);
 }
+
+footer p {
+    padding-bottom: 10px;
+}
+
+footer h3 {
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
 
 
