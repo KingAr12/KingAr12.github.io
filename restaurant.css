@@ -174,13 +174,23 @@ footer {
     color: rgb(255, 217, 231);
 }
 
-footer p,
+footer a,
 footer h3 {
     background-color:rgb(148, 33, 77);
 }
 
-footer p {
+footer a {
+    color:rgb(255, 217, 231);
     padding-bottom: 10px;
+    font-size: 25px;
+}
+
+footer a:hover {
+    background-color:rgb(250, 221, 231);
+    color:rgb(148, 33, 77);
+    padding: 0;
+    border: 3px solid rgb(148, 33, 77);
+    border-radius: 8px;
 }
 
 footer h3 {
