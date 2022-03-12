@@ -16,11 +16,16 @@ body {
 
 header {
     background-color: rgb(148, 33, 77);
+    background-image: url('foodimgs/firstcatercustomer.JPG');
+    background-repeat: no-repeat;
+    background-position: 50% 60%; 
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 60px;
     width: 100%;
     font-size: 30px;
-    height: 166px;
+    height: 240px;
+    position: relative;
+    z-index: 0;
 }
 
 header.header h1 {
@@ -31,9 +36,8 @@ header.header h1 {
     height: 90px;
     margin: 0 auto;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 8px;
     font-size: 50px;
-    padding: 10px;
 }
 
 header.header p {
@@ -46,7 +50,8 @@ header.header p {
     color:rgb(255, 217, 231);
     position: fixed;
     right: 0px;
-    top: 0px; 
+    top: 0px;
+    z-index: 2; 
 }
 
 header.header p:hover {
@@ -89,25 +94,24 @@ main {
 
 .collage {
     position: sticky;
-    top: 150px
+    top: 150px;
+    z-index: 1;
 }
 
 .inline {
     display: inline-block;
-    margin: 18px;
 }
 
-img {
-    border: 5px solid rgb(218, 126, 161);
-    background-color: rgb(218, 126, 161);
-    height: 250px;
-    width: 250px;
-    box-sizing: content-box;
-    margin-top: 20px;
+figure {
+    background-color:rgb(255, 217, 231);
+    padding: 20px;
+    height: 420px;
+    width: 400px;
 }
 
-img:hover {
-    border: 0;
+figure:hover {
+    border: 4px solid rgb(218, 126, 161);
+    border-radius: 40px;
 }
 
 figcaption {
@@ -160,6 +164,11 @@ tr.dish td {
 
 table.menu td {
     width: 400px;
+}
+
+img.menpic {
+    width: 300px;
+    height: 200px;
 }
 
 
