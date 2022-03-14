@@ -7,7 +7,7 @@
 
 
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     text-align: center;
     color: rgb(189, 65, 112);
     background-color:rgb(148, 33, 77);
@@ -158,7 +158,7 @@ tr.dish td {
     font-weight: bold;
     font-size: 18px;
     border: 4px solid rgb(224, 126, 164);
-    background-color: rgb(255, 217, 231);
+    background-color: rgb(253, 245, 248);
     color: rgb(148, 33, 77);
 }
 
