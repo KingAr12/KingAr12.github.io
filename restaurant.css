@@ -37,7 +37,8 @@ header.header h1 {
     margin: 0 auto;
     margin-bottom: 10px;
     padding: 8px;
-    font-size: 50px;
+    font-size: 53px;
+    letter-spacing: 0.1em;
 }
 
 header.header p {
@@ -47,6 +48,7 @@ header.header p {
     height: 40px;
     padding: 7px;
     font-size: 17px;
+    font-weight: 900;
     color:rgb(255, 217, 231);
     position: fixed;
     right: 0px;
@@ -62,6 +64,7 @@ header.header p:hover {
     padding: 16px 0px;
     width: 350px;
     height: 70px;
+    font-style: italic;
 }
 
 
@@ -73,22 +76,28 @@ main {
 }
 
 
-.intro {
+.intro { 
+    height: 250px;
     font-size: 20px;
-    width: 500px;
     margin: 0 auto;
-    height: 150px;
     padding-top: 20px;
+}
+
+.intro h2 {
+    padding-top: 30px;
 }
 
 .intro p {
     margin-top: 5px;
+    padding-top: 50px;
+    font-size: 25px;
+    line-height: 1.4;
 }
 
 
 .photos {
     width: fit-content;
-    margin: 0 auto;
+    margin: 10px auto;
     height: 700px;
 }
 
@@ -138,32 +147,28 @@ table.menu td {
 }
 
 table.menu th {
-    font-size: 30px;
-    height: 50px;
+    font-size: 60px;
+    height: 70px;
     border: 4px solid rgb(224, 126, 164);
     border-radius: 15px;
-}
-
-tr.menusize {
-    font-size: 25px;
+    letter-spacing: 0.5em;
 }
 
 tr.menusize td {
-    border: 4px solid rgb(224, 126, 164);
+    border: 5px solid rgb(224, 126, 164);
     border-radius: 0px 0px 30px 30px;
     margin: 0 auto;
+    font-size: 30px;
+    height: 60px;
 }
 
 tr.dish td {
-    font-weight: bold;
-    font-size: 18px;
-    border: 4px solid rgb(224, 126, 164);
+    font-weight: 1000;
+    font-size: 40px;
+    letter-spacing: 3px;
+    border: 2px solid rgb(224, 126, 164);
     background-color: rgb(253, 245, 248);
     color: rgb(148, 33, 77);
-}
-
-table.menu td {
-    width: 400px;
 }
 
 img.menpic {
