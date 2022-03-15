@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-family: 'Gabriela', serif; 
     text-align: center;
     color: rgb(189, 65, 112);
     background-color:rgb(148, 33, 77);
@@ -33,10 +33,10 @@ header.header h1 {
     border-radius: 30%;
     background-size: auto;
     width: 450px;
-    height: 90px;
+    height: 120px;
     margin: 0 auto;
     margin-bottom: 10px;
-    padding: 8px;
+    padding-top: 20px;
     font-size: 53px;
     letter-spacing: 0.1em;
 }
@@ -46,8 +46,8 @@ header.header p {
     border-radius: 0px 0px 15px 15px;
     width: 335px; 
     height: 40px;
-    padding: 7px;
-    font-size: 17px;
+    padding: 8px;
+    font-size: 15px;
     font-weight: 900;
     color:rgb(255, 217, 231);
     position: fixed;
@@ -61,29 +61,31 @@ header.header p:hover {
     background-color:rgb(255, 217, 231);
     border: 5px solid rgb(197, 119, 149);
     border-radius: 20px 0px 0px 20px;
-    padding: 16px 0px;
+    padding: 17px;
     width: 350px;
     height: 70px;
     font-style: italic;
+    font-size: 15px;
 }
 
 
 main {
-    width: auto;
+    border: 5px solid rgb(255, 217, 231);
     padding-bottom: 200px;
     margin: 0 auto;
-    border-radius: 50px 50px 0 0;
+    border-radius: 60px 60px 0 0;
 }
 
 
 .intro { 
     height: 250px;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding-top: 20px;
+    border-radius: 50px 50px 0 0;
 }
 
-.intro h2 {
+.intro h2 {   
     padding-top: 30px;
 }
 
@@ -128,16 +130,11 @@ figcaption {
 }
 
 
-.menu {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .menu table {
     color:rgb(255, 217, 231);
     margin: 0 auto;
     height: 300px;
-    width: 1100px;
+    width: 900px;
 }
 
 table.menu th,
