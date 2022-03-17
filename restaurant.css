@@ -72,17 +72,52 @@ header.header p:hover {
 main {
     border: 5px solid rgb(255, 217, 231);
     padding-bottom: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+nav {
+    position: relative;
     margin: 0 auto;
-    border-radius: 60px 60px 0 0;
+    width: 80%;
+    background-color: rgb(189, 65, 112);
+    border-radius: 10px 10px;
+    font-size: large;
+    height: 70px;
+    bottom: 5px;
+}
+
+nav span {
+    background-color: rgb(189, 65, 112);
+    position: relative;
+    margin: 30px auto;
+    padding: 10px;
+    top: 20px;
+    font-size: 30px;
+    color: rgb(255, 217, 231);
+}
+
+a.nav {
+    background-color: rgb(189, 65, 112);
+    color: rgb(255, 217, 231);
+    position: relative;
+    bottom: 2px;
+    padding: 10px;
+}
+
+a.nav:hover {
+    background-color: rgb(224, 126, 164);
+    color: rgb(255, 217, 231);
 }
 
 
 .intro { 
+    width: 1350px;
     height: 250px;
     font-size: 20px;
     margin: 20px auto;
     padding-top: 20px;
-    border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 30px 30px;
+    border-bottom: 35px solid rgb(189, 65, 112);
 }
 
 .intro h2 {   
