@@ -53,7 +53,7 @@ header.header p {
     position: fixed;
     right: 0px;
     top: 0px;
-    z-index: 2; 
+    z-index: 5; 
 }
 
 header.header p:hover {
@@ -99,14 +99,20 @@ nav span {
 a.nav {
     background-color: rgb(224, 126, 164);
     color: rgb(255, 217, 231);
+    border: 5px solid rgb(233, 162, 189);
     position: relative;
     bottom: 2px;
-    padding: 10px;
+    padding: 5px;
 }
 
 a.nav:hover {
     background-color: rgb(255, 217, 231);
     color: rgb(189, 65, 112);
+    text-decoration: none;
+}
+
+a.nav:active {
+    color: rgb(233, 162, 189);
 }
 
 
@@ -236,6 +242,11 @@ footer a:hover {
     padding: 0;
     border: 3px solid rgb(148, 33, 77);
     border-radius: 8px;
+    text-decoration: none;
+}
+
+footer a:active {
+    color: rgb(233, 162, 189);
 }
 
 footer h3 {
