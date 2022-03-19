@@ -78,7 +78,7 @@ main {
 nav {
     position: relative;
     margin: 0 auto;
-    width: 80%;
+    width: 89%;
     background-color: rgb(189, 65, 112);
     border-radius: 10px 10px;
     font-size: large;
@@ -88,16 +88,16 @@ nav {
 
 nav span {
     background-color: rgb(189, 65, 112);
+    color: rgb(255, 217, 231);
     position: relative;
     margin: 30px auto;
     padding: 10px;
     top: 20px;
     font-size: 30px;
-    color: rgb(255, 217, 231);
 }
 
 a.nav {
-    background-color: rgb(189, 65, 112);
+    background-color: rgb(224, 126, 164);
     color: rgb(255, 217, 231);
     position: relative;
     bottom: 2px;
@@ -105,8 +105,8 @@ a.nav {
 }
 
 a.nav:hover {
-    background-color: rgb(224, 126, 164);
-    color: rgb(255, 217, 231);
+    background-color: rgb(255, 217, 231);
+    color: rgb(189, 65, 112);
 }
 
 
