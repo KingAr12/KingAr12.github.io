@@ -1,10 +1,93 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    font-family: 'Karla', sans-serif;
+    color:rgb(39, 68, 68);
+}
+
+body {
+    background-color: rgba(216, 239, 240, 0.445);
+    box-sizing: border-box;
 }
 
 header {
+    background-color: rgba(158, 209, 211, 0.445);
     text-align: center;
     padding: 2%;
 }
+
+header h1 {
+    font-size: 3em;
+    color: rgb(51, 81, 82);
+    width: fit-content;
+    margin-left: auto;
+    letter-spacing: .7rem;
+}
+
+section.intro h2 {
+    margin-left: auto;
+    width: fit-content;
+    background-color: rgba(158, 209, 211, 0.445);
+    padding: .5rem;
+}
+
+
+section.projects h2 {
+    color: rgb(39, 68, 68);
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0;
+}
+
+p.pjlink {
+    width: fit-content;
+    margin: 2em auto;
+}
+
+p.pjlink a {
+    color: rgba(39, 68, 68, 0.63);
+    background-color: rgba(149, 216, 221, 0.445);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+p.pjlink a:hover {
+    color: rgb(39, 68, 68);
+    border: 2px solid rgb(39, 68, 68);
+    background-color: rgba(138, 207, 212, 0.801);
+}
+
+footer {
+    background-color: rgba(158, 209, 211, 0.445);
+    text-align: center;
+    height: 14em;
+    margin-top: 15em;
+}
+
+footer div {
+
+    margin: 1em 10em;
+    text-align: center;
+    border-radius: 2em;
+    background-color: rgba(149, 216, 221, 0.445);
+    display: inline-block;
+    width: 27em;
+    height: 5em;
+}
+
+footer div h3 {
+    padding-top: 1em;
+}
+
+footer div ul li {
+    width: fit-content;
+    margin: 0 auto;
+    display: inline;
+}
+
+footer div ul li+li::before {
+    content: "- ";
+}
+
