@@ -1,8 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color:rgb(255, 217, 231);   
+    padding: 0; 
 }
 
 
@@ -10,7 +8,10 @@ body {
     font-family: 'Gabriela', serif; 
     text-align: center;
     color: rgb(189, 65, 112);
-    background-color:rgb(148, 33, 77);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(255, 217, 231);   
 }
 
 
@@ -20,137 +21,122 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 60%; 
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 5%;
     width: 100%;
-    font-size: 30px;
-    height: 240px;
-    position: relative;
     z-index: 0;
+    height: 10rem;
 }
 
 header.header h1 {
-    border: 5px solid rgb(197, 119, 149);
+    border: 4px solid rgb(197, 119, 149);
+    background-color:rgb(255, 217, 231); 
     border-radius: 30%;
-    background-size: auto;
-    width: 450px;
-    height: 120px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    font-size: 53px;
+    width: 27%;
+    height: 1em;
+    padding: 1%;
+    margin: auto;
+    font-size: 310%;
     letter-spacing: 0.1em;
 }
 
 header.header p {
     background-color: rgb(148, 33, 77);
-    border-radius: 0px 0px 15px 15px;
-    width: 335px; 
-    height: 40px;
-    padding: 8px;
-    font-size: 15px;
+    border-radius: 0 0 0 1em;
+    width: 21%; 
+    height: 5%;
+    padding-top: 1%;
+    font-size: 95%;
     font-weight: 900;
     color:rgb(255, 217, 231);
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 0%;
+    top: 0%;
     z-index: 5; 
 }
 
 header.header p:hover {
     color:rgb(148, 33, 77);
-    background-color:rgb(255, 217, 231);
-    border: 5px solid rgb(197, 119, 149);
-    border-radius: 20px 0px 0px 20px;
-    padding: 17px;
-    width: 350px;
-    height: 70px;
+    background-color:rgb(253, 245, 248);
+    border-left: .2rem solid rgb(197, 119, 149);
+    border-bottom: .2rem solid rgb(197, 119, 149);
+    border-radius: 0 0 0 1em;
+    padding-top: 1%;
     font-style: italic;
-    font-size: 15px;
 }
 
 
 main {
-    border: 5px solid rgb(255, 217, 231);
-    padding-bottom: 200px;
-    border-radius: 20px 20px 0 0;
+    padding-bottom: 10%;
 }
 
 nav {
     position: relative;
     margin: 0 auto;
-    width: 89%;
+    padding-top: 2%;
+    width: 84.56%;
     background-color: rgb(189, 65, 112);
-    border-radius: 10px 10px;
+    border-radius: 0 0 3em 3em;
     font-size: large;
-    height: 77px;
-    bottom: 5px;
+    height: 4.5rem;
 }
 
 nav span {
     background-color: rgb(189, 65, 112);
     color: rgb(255, 217, 231);
-    position: relative;
-    padding: 10px;
-    top: 20px;
-    font-size: 30px;
+    font-size: 180%;
+    padding: 2%; 
 }
 
 a.nav {
     background-color: rgb(224, 126, 164);
-    border: 2px solid rgb(233, 162, 189);
-    border-radius: 5px;
+    border: .1rem solid rgb(233, 162, 189);
+    border-radius: 1rem;
     color: rgb(255, 217, 231);
-    position: relative;
-    bottom: 4px;
-    padding: 15px;
-    box-shadow: 0px 5px;
+    padding: 1%;
+    box-shadow: 0 .4rem;
 }
 
 a.nav:hover {
     background-color: rgb(255, 217, 231);
-    border: 2px solid rgb(233, 162, 189);
+    border: .1rem solid rgb(233, 162, 189);
     color: rgb(189, 65, 112);
     text-decoration: none;
 }
 
 a.nav:active {
     color: rgb(233, 162, 189);
-    top: 1px;
     box-shadow: 0px 0px;
 }
 
 
 .intro { 
-    width: 1350px;
-    height: 250px;
-    font-size: 20px;
-    margin: 20px auto;
-    padding-top: 20px;
-    border-radius: 50px 50px 30px 30px;
-    border-bottom: 35px solid rgb(189, 65, 112);
+    width: 70%;
+    height: 15rem;
+    font-size: 140%;
+    margin: 0 auto;
+    padding-top: 2%;
+    border-radius: 2em;
+    border-bottom: 2em solid rgb(189, 65, 112);
 }
 
 .intro h2 {   
-    padding-top: 30px;
+    margin-top: 1em;
 }
 
 .intro p {
-    margin-top: 5px;
-    padding-top: 50px;
-    font-size: 25px;
+    margin-top: 2em;
+    font-size: 120%;
     line-height: 1.4;
 }
 
 
 .photos {
-    width: fit-content;
-    margin: 10px auto;
-    height: 700px;
+    width: 90%;
+    margin: 2em auto;
 }
 
 .collage {
     position: sticky;
-    top: 150px;
     z-index: 1;
 }
 
@@ -160,76 +146,68 @@ a.nav:active {
 
 figure {
     background-color:rgb(255, 217, 231);
-    padding: 20px;
-    height: 350px;
-    width: 400px;
+    padding: 1em;
+    height: 19rem;
+    width: 28%;
 }
 
 figure:hover {
-    border: 4px solid rgb(218, 126, 161);
     background-color:rgb(253, 245, 248);
-    border-radius: 40px;
+    border-radius: 3em;
 }
 
 figcaption {
     font-weight: bold;
     width: fit-content;
     margin: 0 auto;
-    border-radius: 5px;
 }
 
 
 .menu table {
     color:rgb(255, 217, 231);
     margin: 0 auto;
-    height: 300px;
-    width: 900px;
+    width: 80%;
 }
 
 table.menu th,
 table.menu td {
-    border: 1px solid rgb(255, 217, 231) ;
     background-color:rgb(192, 88, 128);
 }
 
 table.menu th {
-    font-size: 60px;
-    height: 70px;
-    border: 4px solid rgb(224, 126, 164);
-    border-radius: 15px;
+    font-size: 350%;
+    height: 2em;
+    border: .5rem solid rgb(224, 126, 164);
+    border-radius: 2em;
     letter-spacing: 0.5em;
 }
 
 tr.menusize td {
-    border: 5px solid rgb(224, 126, 164);
-    border-radius: 0px 0px 30px 30px;
+    border: .2em solid rgb(224, 126, 164);
+    border-radius: 0px 0px 1em 1em;
     margin: 0 auto;
-    font-size: 30px;
-    height: 60px;
+    font-size: 190%;
+    height: 3rem;
 }
 
 tr.dish td {
     font-weight: 1000;
-    font-size: 40px;
-    letter-spacing: 3px;
-    border: 2px solid rgb(224, 126, 164);
+    font-size: 300%;
+    letter-spacing: .3em;
     background-color: rgb(253, 245, 248);
     color: rgb(148, 33, 77);
 }
 
 img.menpic {
-    width: 300px;
-    height: 200px;
+    width: 20rem;
+    height: 15rem;
 }
 
 
 footer {
     background-color:rgb(148, 33, 77);
-    height: 70px;
-    width: 100%;
-    padding-top: 25px;
-    margin-top: 100px;
-    font-size: 16px;
+    height: 10em;
+    padding-top: 5rem;
     color: rgb(255, 217, 231);
 }
 
@@ -240,18 +218,15 @@ footer h3 {
 
 footer a {
     color:rgb(255, 217, 231);
-    border: 2px solid rgb(250, 221, 231);
-    border-radius: 8px;
-    font-size: 25px;
-    padding: 3px;   
+    border: .1rem solid rgb(250, 221, 231);
+    border-radius: 1em;
+    font-size: 170%;
+    padding: .5rem;   
 }
 
 footer a:hover {
     background-color:rgb(250, 221, 231);
     color:rgb(148, 33, 77);
-    padding: 3px;
-    border: 3px solid rgb(148, 33, 77);
-    border-radius: 8px;
     text-decoration: none;
 }
 
@@ -260,7 +235,8 @@ footer a:active {
 }
 
 footer h3 {
-    font-size: 30px;
+    margin-top: .7em;
+    font-size: 250%;
 }
 
 
