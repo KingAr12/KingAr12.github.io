@@ -82,7 +82,7 @@ nav {
     background-color: rgb(189, 65, 112);
     border-radius: 10px 10px;
     font-size: large;
-    height: 78px;
+    height: 77px;
     bottom: 5px;
 }
 
@@ -108,14 +108,15 @@ a.nav {
 
 a.nav:hover {
     background-color: rgb(255, 217, 231);
-    border: 3px solid rgb(233, 162, 189);
+    border: 2px solid rgb(233, 162, 189);
     color: rgb(189, 65, 112);
     text-decoration: none;
 }
 
 a.nav:active {
     color: rgb(233, 162, 189);
-    bottom: 1px;
+    top: 1px;
+    box-shadow: 0px 0px;
 }
 
 
@@ -239,14 +240,16 @@ footer h3 {
 
 footer a {
     color:rgb(255, 217, 231);
-    padding-bottom: 10px;
+    border: 2px solid rgb(250, 221, 231);
+    border-radius: 8px;
     font-size: 25px;
+    padding: 3px;   
 }
 
 footer a:hover {
     background-color:rgb(250, 221, 231);
     color:rgb(148, 33, 77);
-    padding: 0;
+    padding: 3px;
     border: 3px solid rgb(148, 33, 77);
     border-radius: 8px;
     text-decoration: none;
@@ -258,7 +261,6 @@ footer a:active {
 
 footer h3 {
     font-size: 30px;
-    padding-bottom: 3%;
 }
 
 
