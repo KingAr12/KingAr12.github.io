@@ -41,7 +41,8 @@ section.projects h2 {
 
 
 div.food{
-    line-height: .4em;
+    height: 6em;
+    line-height: .5em;
     margin: 0 auto;
     width: 20%;
 }
