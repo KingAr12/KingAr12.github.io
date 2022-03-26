@@ -39,6 +39,18 @@ section.projects h2 {
     margin: 2em 0;
 }
 
+
+div.food{
+    line-height: .4em;
+    margin: 0 auto;
+    width: 20%;
+}
+
+div.food p {
+    font-weight: 800;
+    text-align: center;
+}
+
 p.pjlink {
     width: fit-content;
     margin: 2em auto;
