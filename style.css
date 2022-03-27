@@ -41,32 +41,35 @@ section.projects h2 {
 
 
 div.food{
-    height: 6em;
     line-height: .5em;
     margin: 0 auto;
-    width: 20%;
+    width: 40%;
+    height: fit-content
 }
 
 div.food p {
     font-weight: 800;
     text-align: center;
+    height: 1em;
 }
 
-p.pjlink {
-    width: fit-content;
-    margin: 2em auto;
+h3.pjlink {
+    height: 2em;
+    padding-top: 2em;
+    text-align: center;
 }
 
-p.pjlink a {
+h3.pjlink a {
+    border-radius: 2em;
     color: rgba(39, 68, 68, 0.63);
     background-color: rgba(149, 216, 221, 0.445);
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: .3em;
 }
 
-p.pjlink a:hover {
+h3.pjlink a:hover {
     color: rgb(39, 68, 68);
     border: 2px solid rgb(39, 68, 68);
     background-color: rgba(138, 207, 212, 0.801);
