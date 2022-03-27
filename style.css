@@ -40,7 +40,8 @@ section.projects h2 {
 }
 
 
-div.food{
+div.food {
+    border: 1px solid red;
     line-height: .5em;
     margin: 0 auto;
     width: 40%;
@@ -48,12 +49,14 @@ div.food{
 }
 
 div.food p {
+    border: 1px solid red;
     font-weight: 800;
     text-align: center;
     height: 1em;
 }
 
 h3.pjlink {
+    border: 1px solid red;
     height: 2em;
     padding-top: 2em;
     text-align: center;
