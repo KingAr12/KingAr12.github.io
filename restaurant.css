@@ -166,7 +166,6 @@ figcaption {
 .menu table {
     color:rgb(255, 217, 231);
     margin: 0 auto;
-    width: 80%;
 }
 
 table.menu th,
@@ -192,7 +191,7 @@ tr.menusize td {
 
 tr.dish td {
     font-weight: 1000;
-    font-size: 300%;
+    font-size: 180%;
     letter-spacing: .3em;
     background-color: rgb(253, 245, 248);
     color: rgb(148, 33, 77);
