@@ -13,14 +13,15 @@ body {
 header {
     background-color: rgba(158, 209, 211, 0.445);
     text-align: center;
-    padding: 2%;
+    height: 3.4em;
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 1.4em;
     color: rgb(51, 81, 82);
     width: fit-content;
     margin-left: auto;
+    padding-top: .8%;
     letter-spacing: .7rem;
 }
 
@@ -29,6 +30,7 @@ section.intro h2 {
     width: fit-content;
     background-color: rgba(158, 209, 211, 0.445);
     padding: .5rem; 
+    font-size: 1.3em;
 }
 
 
@@ -37,6 +39,7 @@ section.projects h2 {
     text-align: center;
     font-size: 2em;
     margin: 2em 0;
+    letter-spacing: .2em;
 }
 
 
