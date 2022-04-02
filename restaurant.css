@@ -146,7 +146,6 @@ figure.inline {
     padding: 1em;
     margin: 0 auto;
     background-color:rgb(255, 217, 231);
-    min-width: 2em;
 }
 
 figure.inline:hover {
