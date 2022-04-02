@@ -33,12 +33,14 @@ section.intro h2 {
     font-size: 1.3em;
 }
 
+section.projects {
+    margin: 2em auto;
+}
 
 section.projects h2 {
     color: rgb(39, 68, 68);
     text-align: center;
     font-size: 2em;
-    margin: 2em 0;
     letter-spacing: .2em;
 }
 
@@ -80,28 +82,34 @@ h3.pjlink a:hover {
 footer {
     background-color: rgba(158, 209, 211, 0.445);
     text-align: center;
-    height: 18em;
-    margin-top: 15em;
 }
 
 footer div {
-    display: inline-block;
+    display: inline-flex;
     margin: 1em auto;
     text-align: center;
     border-radius: 2em;
     background-color: rgba(149, 216, 221, 0.445);
     width: 27em;
-    height: 5em;
+    height: 4.7em;
+}
+
+footer div h3,
+footer div ul {
+    height: fit-content;
 }
 
 footer div h3 {
-    padding-top: 1em;
+    margin-top: 6%;
+}
+
+footer div ul {
+    margin: 0 auto;
+    width: 15em;
 }
 
 footer div ul li {
-    width: fit-content;
-    margin: 0 auto;
-    display: inline;
+
 }
 
 footer div ul li+li::before {
