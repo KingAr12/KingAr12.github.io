@@ -138,22 +138,25 @@ a.nav:active {
 .collage {
     text-align: center;
     width: 100%;
-    border: 1px solid red;;
     display: flex;
     z-index: 1;
 }
 
 figure.inline {
+    padding: 1em;
     margin: 0 auto;
     background-color:rgb(255, 217, 231);
-    padding: 1em;
-    height: 19rem;
-    width: 28%;
+    min-width: 2em;
 }
 
 figure.inline:hover {
     background-color:rgb(253, 245, 248);
     border-radius: 3em;
+}
+
+img.img {
+    width: 70%;
+
 }
 
 figcaption {
