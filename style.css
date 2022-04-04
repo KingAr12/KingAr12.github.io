@@ -90,8 +90,9 @@ footer div {
     text-align: center;
     border-radius: 2em;
     background-color: rgba(149, 216, 221, 0.445);
-    width: 27em;
+    width: 25em;
     height: 4.7em;
+    justify-content: space-around;
 }
 
 footer div h3,
@@ -100,16 +101,15 @@ footer div ul {
 }
 
 footer div h3 {
-    margin-top: 6%;
+    font-size: medium;
 }
 
 footer div ul {
-    margin: 0 auto;
-    width: 15em;
+    
 }
 
 footer div ul li {
-
+    letter-spacing: .2em;
 }
 
 footer div ul li+li::before {
