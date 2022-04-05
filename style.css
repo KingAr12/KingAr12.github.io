@@ -86,7 +86,6 @@ footer {
 
 footer div {
     display: inline-flex;
-    margin: 1em auto;
     text-align: center;
     border-radius: 2em;
     background-color: rgba(149, 216, 221, 0.445);
@@ -98,7 +97,7 @@ footer div {
 
 footer div h3,
 footer div ul {
-    padding: 1em;
+    padding: 0 1em;
     height: fit-content;
 }
 
@@ -111,7 +110,7 @@ footer div ul {
 }
 
 footer div ul li {
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     width: fit-content;
 }
 
