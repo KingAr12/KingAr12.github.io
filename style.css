@@ -93,11 +93,11 @@ footer div {
     width: 27em;
     height: 10em;
     justify-content: center;
+    align-items: center;
 }
 
 footer div h3,
 footer div ul {
-    margin-top: 2em;
     padding: 1em;
     height: fit-content;
 }
@@ -116,6 +116,6 @@ footer div ul li {
 }
 
 footer div ul li+li::before {
-    content: "- ";
+
 }
 
