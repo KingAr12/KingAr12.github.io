@@ -34,7 +34,7 @@ section.intro h2 {
 }
 
 section.projects {
-    margin: 2em auto;
+    margin: 2em auto 7em;
 }
 
 section.projects h2 {
@@ -42,6 +42,7 @@ section.projects h2 {
     text-align: center;
     font-size: 2em;
     letter-spacing: .2em;
+    margin-bottom: 3em;
 }
 
 
@@ -51,6 +52,7 @@ div.food {
 }
 
 div.food p {
+    padding: 1em;
     font-weight: 800;
     text-align: center;
     height: 2em;
@@ -58,24 +60,28 @@ div.food p {
 }
 
 h3.pjlink {
-    height: 2em;
-    padding-top: 2em;
+    background-color: rgba(149, 216, 221, 0.445);
+    border-radius: 2em;
+    margin: 0 auto;
+    height: 2.3em;
     text-align: center;
+    width: 13em;
+    padding-top: .6em;
 }
 
 h3.pjlink a {
-    border-radius: 2em;
+    letter-spacing: .2em;
     color: rgba(39, 68, 68, 0.63);
-    background-color: rgba(149, 216, 221, 0.445);
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
-    padding: .3em;
+    padding: .5em;
+    border-radius: 3em;
 }
 
+h3.pjlink:hover,
 h3.pjlink a:hover {
     color: rgb(39, 68, 68);
-    border: 2px solid rgb(39, 68, 68);
     background-color: rgba(138, 207, 212, 0.801);
 }
 
