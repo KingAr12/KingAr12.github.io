@@ -83,7 +83,7 @@ h3.pjlink a {
 h3.pjlink:hover,
 h3.pjlink a:hover {
     color: rgb(39, 68, 68);
-    background-color: rgba(138, 207, 212, 0.801);
+    background-color: rgba(138, 207, 212);
 }
 
 footer {
