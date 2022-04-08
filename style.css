@@ -62,6 +62,7 @@ div.food p {
 h3.pjlink {
     background-color: rgba(149, 216, 221, 0.445);
     border-radius: 2em;
+    border-bottom: 2px solid rgb(39, 68, 68);
     margin: 0 auto;
     height: 2.3em;
     text-align: center;
@@ -94,11 +95,13 @@ footer div {
     display: inline-flex;
     text-align: center;
     border-radius: 2em;
+    border-bottom: 2px solid rgb(39, 68, 68);
     background-color: rgba(149, 216, 221, 0.445);
     width: 27em;
     height: 5em;
     justify-content: center;
     align-items: center;
+    margin: 0 2em;
 }
 
 footer div h3,
