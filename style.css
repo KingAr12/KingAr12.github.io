@@ -35,7 +35,7 @@ section.intro h2 {
     border-radius: 0 0 0 1em;
 }
 
-section.projects {
+section.projects {  
     margin: 2em auto 7em;
 }
 
@@ -48,18 +48,21 @@ section.projects h2 {
 }
 
 div.pjcontainer {
+    height: 20em;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 div.food {
     background-image: url('./foodimgs/mdaybiku.jpg');
     background-position: center;
     background-size: cover;
-    padding-top: 5em;
-    margin: 0 auto;
-    height: 11em;
-    width: 18%;
+    height: 12em;
+    width: 18em;
+    padding-top: 6em;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 div.food p {
@@ -102,6 +105,10 @@ h3.pjlink:hover {
 h3.pjlink a:hover {
     color: rgb(224, 242, 243);
     background-color: rgba(138, 207, 212);
+}
+
+div.soundproduction h3 {
+    
 }
 
 footer {
