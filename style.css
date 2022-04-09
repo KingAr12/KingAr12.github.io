@@ -76,7 +76,6 @@ div.food p {
 h3.pjlink {
     background-color: rgba(149, 216, 221, 0.852);
     border-radius: 2em;
-    border-bottom: 2px solid rgb(39, 68, 68);
     margin: 0 auto;
     height: 2.3em;
     text-align: center;
@@ -90,11 +89,16 @@ h3.pjlink a {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
-    padding: .5em;
+    padding: .4em;
     border-radius: 3em;
 }
 
-h3.pjlink:hover,
+h3.pjlink:hover {
+    border-bottom: 2px solid rgb(39, 68, 68);
+    color: rgb(224, 242, 243);
+    background-color: rgba(138, 207, 212);
+}
+
 h3.pjlink a:hover {
     color: rgb(224, 242, 243);
     background-color: rgba(138, 207, 212);
