@@ -83,7 +83,8 @@ h3.pjlink {
     height: 2.3em;
     text-align: center;
     width: 13em;
-    padding-top: .6em;
+    padding-top: .4em;
+    box-sizing: border-box;
 }
 
 h3.pjlink a {
@@ -91,7 +92,7 @@ h3.pjlink a {
     letter-spacing: .2em;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: .4em;
     border-radius: 3em;
 }
@@ -105,6 +106,10 @@ h3.pjlink:hover {
 h3.pjlink a:hover {
     color: rgb(224, 242, 243);
     background-color: rgba(138, 207, 212);
+}
+
+div.soundproduction {
+    flex-shrink: 0;
 }
 
 div.soundproduction h3 {
