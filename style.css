@@ -51,7 +51,7 @@ div.pjcontainer {
     height: 20em;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 div.food {
@@ -59,7 +59,7 @@ div.food {
     background-position: center;
     background-size: cover;
     height: 11em;
-    width: 18em;
+    width: 17em;
     padding-top: 6em;
     border-radius: 50%;
     flex-shrink: 0;
@@ -108,12 +108,24 @@ h3.pjlink a:hover {
     background-color: rgba(138, 207, 212);
 }
 
-div.soundproduction {
+div.production {
+    border-radius: 50%;
     flex-shrink: 0;
+    height: 17em;
+    width: 17em;
+    background-image: url('./imgs/firstdrawing.jpg');
+    background-position: 23% 50%;
+    background-size: 135%;
+    opacity: 0.8;
 }
 
-div.soundproduction h3 {
-    
+div.production h3 {
+    margin: 2em auto;
+    width: fit-content;
+}
+
+div.production:hover {
+    opacity: 1;
 }
 
 footer {
