@@ -140,7 +140,7 @@ footer div {
     background-color: rgba(149, 216, 221, 0.445);
     width: 27em;
     height: 5em;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 2em;
 }
@@ -153,6 +153,8 @@ footer div ul {
 
 footer div h3 {
     font-size: medium;
+    width: 3em;
+    border: 1px solid red;
 }
 
 footer div ul {
@@ -173,6 +175,9 @@ footer div ul li {
 
 #socials li {
     height: fit-content;
+}
+
+#socials li a {
 }
 
 footer div ul li+li::before {
