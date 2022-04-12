@@ -140,7 +140,7 @@ footer div {
     background-color: rgba(149, 216, 221, 0.445);
     width: 27em;
     height: 5em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0 2em;
 }
@@ -160,8 +160,19 @@ footer div ul {
 }
 
 footer div ul li {
-    letter-spacing: .1em;
     width: fit-content;
+}
+
+#socials {
+    height: 4em;
+    width: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#socials li {
+    height: fit-content;
 }
 
 footer div ul li+li::before {
