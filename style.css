@@ -52,7 +52,9 @@ section.intro h2 {
 }
 
 section.projects {  
-    margin: 2em auto 7em;
+    border:1px solid red;
+    margin: 2em auto;
+    height: 30em;
 }
 
 section.projects h2 {
@@ -64,10 +66,13 @@ section.projects h2 {
 }
 
 div.pjcontainer {
+    border:1px solid red;
     height: 20em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
 }
 
 div.food {
@@ -154,6 +159,7 @@ footer {
 footer section.flinks {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer div {
