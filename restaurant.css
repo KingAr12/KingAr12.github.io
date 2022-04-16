@@ -146,6 +146,7 @@ figure.inline {
     margin: 0 auto;
     background-color:rgb(255, 217, 231);
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 figure.inline:hover {
@@ -154,8 +155,8 @@ figure.inline:hover {
 }
 
 img.img {
-    width: 90%;
-    height: 90%;
+    width: 18em;
+    height: 12em;
 }
 
 figcaption {
