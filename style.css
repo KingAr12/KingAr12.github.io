@@ -53,7 +53,7 @@ section.intro h2 {
 
 section.projects {  
     margin: 2em auto;
-    height: 30em;
+    height: 50em;
 }
 
 section.projects h2 {
@@ -65,12 +65,12 @@ section.projects h2 {
 }
 
 div.pjcontainer {
-    height: 20em;
+    height: 40em;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    overflow: scroll;
+    align-content: space-around;
 }
 
 div.food {
@@ -196,7 +196,7 @@ footer div ul li {
     width: 16em;
     display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
 }
 
 #socials li {
