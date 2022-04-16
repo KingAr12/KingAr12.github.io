@@ -12,39 +12,31 @@ body {
 
 header {
     background-color: rgba(158, 209, 211, 0.350);
-    text-align: center;
     height: 3.4em;
+    text-align: right;
+}
+
+header section.flexhead {
+    height: 3.4em;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 header h1 {
-    font-size: 1.4em;
+    font-size: 130%;
     color: rgb(51, 81, 82);
     width: fit-content;
     margin: auto 4em;
-    padding-top: .6em;
     letter-spacing: .7rem;
 }
 
 header p {
     width: 4em;
     height: 3em;
-    position: relative;
-    bottom: 2.3em;
-    left: 1em;
     background-image: url('./imgs/logo01.jpg');
     background-size: cover;
     background-position: center;
-}
-
-header h2 {
-    width: fit-content;
-    margin-left: auto;
-    position: relative;
-    bottom: 3.5em;
-    right: 1em;
-    letter-spacing: .1em;
-    font-weight: 400;
-    font-size: 130%;
 }
 
 
@@ -55,7 +47,7 @@ section.intro {
 section.intro h2 {
     text-align: center;
     margin: auto;
-    font-size: 100%;
+    font-size: 80%;
     font-weight: 100;
 }
 
@@ -66,7 +58,7 @@ section.projects {
 section.projects h2 {
     color: rgb(39, 68, 68);
     text-align: center;
-    font-size: 2em;
+    font-size: 130%;
     letter-spacing: .2em;
     margin-bottom: 3em;
 }
@@ -94,6 +86,7 @@ div.food p {
     margin: 0 auto;
     padding: 1em 0 0;
     font-weight: 800;
+    font-size: 80%;
     text-align: center;
     height: 2em;
     width: fit-content;
@@ -106,7 +99,7 @@ h3.pjlink {
     margin: 0 auto;
     height: 2.4em;
     text-align: center;
-    width: 13em;
+    width: 14em;
     padding-top: .5em;
     box-sizing: border-box;
 }
@@ -116,7 +109,7 @@ h3.pjlink a {
     letter-spacing: .2em;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 90%;
     padding: .4em;
     border-radius: 3em;
 }
@@ -144,6 +137,7 @@ div.production {
 }
 
 div.production h3 {
+    font-size: 100%;
     margin: 2em auto;
     width: fit-content;
 }
@@ -180,7 +174,7 @@ footer div ul {
 }
 
 footer div h3 {
-    font-size: medium;
+    font-size: 80%;
     width: 3em;
 }
 
@@ -190,6 +184,7 @@ footer div ul {
 
 footer div ul li {
     width: fit-content;
+    font-size: 80%;
 }
 
 #socials {
