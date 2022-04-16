@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: rgba(158, 209, 211, 0.445);
+    background-color: rgba(158, 209, 211, 0.350);
     text-align: center;
     height: 3.4em;
 }
@@ -39,7 +39,7 @@ header p {
 section.intro h2 {
     margin-left: auto;
     width: fit-content;
-    background-color: rgba(158, 209, 211, 0.445);
+    background-color: rgba(158, 209, 211, 0.350);
     padding: .5em; 
     font-size: 1.3em;
     letter-spacing: .07em;
@@ -140,20 +140,21 @@ div.production:hover {
 }
 
 footer {
-    background-color: rgba(158, 209, 211, 0.445);
+    background-color: rgba(158, 209, 211, 0.350);
     text-align: center;
+    height: 9em;
 }
 
 footer div {
     display: inline-flex;
     text-align: center;
     border-radius: 2em;
-    background-color: rgba(149, 216, 221, 0.445);
-    width: 27em;
+    background-color: rgba(149, 216, 221, 0.350);
+    width: 29em;
     height: 5em;
     justify-content: center;
     align-items: center;
-    margin: 0 2em;
+    margin: 2em 1em;
 }
 
 footer div h3,
