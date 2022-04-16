@@ -193,14 +193,17 @@ footer div ul li {
 
 #socials {
     height: 4em;
-    width: 25em;
+    width: 16em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items:center;
+    margin: 0 1em;
 }
 
 #socials li {
     height: fit-content;
+    width: fit-content;
+    margin: 0 1em;
 }
 
 #socials li a {
