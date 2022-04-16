@@ -52,7 +52,6 @@ section.intro h2 {
 }
 
 section.projects {  
-    border:1px solid red;
     margin: 2em auto;
     height: 30em;
 }
@@ -66,7 +65,6 @@ section.projects h2 {
 }
 
 div.pjcontainer {
-    border:1px solid red;
     height: 20em;
     display: flex;
     align-items: center;
