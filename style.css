@@ -25,6 +25,17 @@ header h1 {
     letter-spacing: .7rem;
 }
 
+header p {
+    width: 4em;
+    height: 3em;
+    position: relative;
+    bottom: 2.3em;
+    left: 1em;
+    background-image: url('./imgs/logo01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 section.intro h2 {
     margin-left: auto;
     width: fit-content;
