@@ -20,7 +20,7 @@ header h1 {
     font-size: 1.4em;
     color: rgb(51, 81, 82);
     width: fit-content;
-    margin-left: auto;
+    margin: auto 4em;
     padding-top: .6em;
     letter-spacing: .7rem;
 }
@@ -36,14 +36,24 @@ header p {
     background-position: center;
 }
 
-section.intro h2 {
-    margin-left: auto;
+header h2 {
     width: fit-content;
-    background-color: rgba(158, 209, 211, 0.350);
-    padding: .5em; 
-    font-size: 1.3em;
-    letter-spacing: .07em;
-    border-radius: 0 0 0 1em;
+    margin-left: auto;
+    position: relative;
+    bottom: 3.1em;
+    letter-spacing: .2em;
+}
+
+
+section.intro {
+    margin-top: 1em;
+}
+
+section.intro h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+    font-weight: 100;
 }
 
 section.projects {  
