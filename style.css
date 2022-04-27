@@ -18,8 +18,8 @@ header {
 
 header section.flexhead {
     height: 3.4em;
-    display: inline-flex;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -37,6 +37,38 @@ header p {
     background-image: url('./imgs/logo01.jpg');
     background-size: cover;
     background-position: center;
+}
+
+
+nav {
+    text-align: center;
+    padding-bottom: .6em;
+    border-bottom: 1px solid rgba(51, 81, 82, 0.333);
+    margin: 1em auto;
+    width: 10em;
+}
+
+nav a {
+    font-size: 80%;
+    color: rgb(224, 242, 243);
+    background-color: rgba(149, 216, 221, 0.616);
+    border-radius: .5em;
+    padding: .5em;
+}
+
+nav a:hover {
+    background-color: rgba(149, 216, 221);
+    text-decoration: none;
+}
+
+nav span {
+
+}
+
+nav span::before {
+    color: rgba(51, 81, 82, 0.64);
+    content: 'Go to:';
+    padding-right: 1em;
 }
 
 
@@ -102,7 +134,7 @@ h3.pjlink {
     margin: 0 auto;
     height: 2.4em;
     text-align: center;
-    width: 14em;
+    width: 11em;
     padding-top: .5em;
     box-sizing: border-box;
 }
@@ -110,7 +142,6 @@ h3.pjlink {
 h3.pjlink a {
     color: rgba(224, 242, 243, 0.73);
     letter-spacing: .2em;
-    text-decoration: none;
     font-weight: 700;
     font-size: 90%;
     padding: .4em;
@@ -126,6 +157,7 @@ h3.pjlink:hover {
 h3.pjlink a:hover {
     color: rgb(224, 242, 243);
     background-color: rgba(138, 207, 212);
+    text-decoration: none;
 }
 
 div.production {
