@@ -63,13 +63,17 @@ section.plgrid {
     grid-template: 3fr 5fr  / 1fr 1fr 1fr;
     gap: 3em 0em;
     width: 80%;
+    height: 15em;
 }
 
 .box {
     background-color: rgba(158, 209, 211, 0.229);
     text-align: center;
-    padding: 2em;
+    font-size: 60%;
+    letter-spacing: .1em;
+    padding: 0 0 2em 0;
 }
+
 
 .d {
     background-image: url('../imgs/richmondlowes.JPG');
@@ -80,5 +84,5 @@ section.plgrid {
 }
 
 .d h3 {
-    color:rgb(216, 239, 240);
+    color:rgb(237, 250, 251);
 }
