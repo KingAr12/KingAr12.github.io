@@ -20,8 +20,8 @@ header {
 
 header section.flexhead {
     height: 3.4em;
-    display: inline-flex;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
