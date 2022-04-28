@@ -42,6 +42,38 @@ header p {
 }
 
 
+nav {
+    text-align: center;
+    padding-bottom: .6em;
+    border-bottom: 1px solid rgba(51, 81, 82, 0.333);
+    margin: 1em auto;
+    width: 10em;
+}
+
+nav a {
+    font-size: 80%;
+    color: rgb(224, 242, 243);
+    background-color: rgba(149, 216, 221, 0.616);
+    border-radius: .5em;
+    padding: .5em;
+}
+
+nav a:hover {
+    background-color: rgba(149, 216, 221);
+    text-decoration: none;
+}
+
+nav span {
+
+}
+
+nav span::before {
+    color: rgba(51, 81, 82, 0.64);
+    content: 'Go to:';
+    padding-right: 1em;
+}
+
+
 section.intro {
     text-align: center;
     width: fit-content;
