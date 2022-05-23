@@ -92,29 +92,50 @@ section.plgrid {
     background-color: rgba(160, 218, 218, 0.292);
     border-radius: .5em;
     display: grid;
-    grid-template: 3fr 5fr  / 1fr 1fr 1fr;
+    grid-template-areas:
+                "date tasks goals"
+                "image image image";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 3fr;
     gap: 3em 0em;
     width: 80%;
     height: 18em;
 }
 
 .box {
-    background-color: rgba(158, 209, 211, 0.229);
     text-align: center;
-    font-size: 80%;
-    letter-spacing: .1em;
-    padding: 0 0 2em 0;
+}
+
+.box ul li {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.a {
+    grid-area: date;
+}
+
+
+.b {
+    grid-area: tasks;
+}
+
+
+.c {
+    grid-area: goals;
 }
 
 
 .d {
+    grid-area: image;
     background-image: url('../imgs/richmondlowes.JPG');
-    background-position: center 20%;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    grid-column: 1 / 4;
+    background-position: 50% 20%;
+    background-size: 80%;
 }
 
 .d h3 {
-    color:rgb(237, 250, 251);
+    color: rgb(224, 242, 243);
+    font-size: 500%;
+    opacity: .8;
+    background-repeat: no-repeat;
 }
