@@ -45,7 +45,7 @@ nav {
     padding-bottom: .6em;
     border-bottom: 1px solid rgba(51, 81, 82, 0.333);
     margin: 1em auto;
-    width: 10em;
+    width: 12em;
 }
 
 nav a {
@@ -62,10 +62,10 @@ nav a:hover {
 }
 
 nav span {
-
+    margin-right: .5em;
 }
 
-nav span::before {
+nav span:first-child:before {
     color: rgba(51, 81, 82, 0.64);
     content: 'Go to:';
     padding-right: 1em;
