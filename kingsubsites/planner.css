@@ -94,10 +94,9 @@ section.plgrid {
     display: grid;
     grid-template-areas:
                 "date tasks goals"
+                "date tasks goals"
+                "image image image"
                 "image image image";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 3fr;
-    gap: 3em 0em;
     width: 80%;
     height: 18em;
 }
@@ -135,7 +134,23 @@ section.plgrid {
 
 .d h3 {
     color: rgb(224, 242, 243);
-    font-size: 500%;
-    opacity: .8;
-    background-repeat: no-repeat;
+    font-size: 300%;
 }
+
+.innerD {
+    border: solid 2px rgb(224, 242, 243);
+}
+
+
+.ovbox {
+    grid-area: 2 / 2 / 4 / 3;
+    border: solid 2px rgb(224, 242, 243);
+    background-color: rgba(224, 242, 243, 0.907);
+    z-index: 2;
+}
+.ovbox h3 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 1em;
+}
+
