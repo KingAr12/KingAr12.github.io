@@ -140,7 +140,7 @@ h3.pjlink {
 }
 
 h3.pjlink a {
-    color: rgba(224, 242, 243, 0.73);
+    color: rgb(232, 242, 243);
     letter-spacing: .2em;
     font-weight: 700;
     font-size: 90%;
@@ -160,6 +160,12 @@ h3.pjlink a:hover {
     text-decoration: none;
 }
 
+
+.production h3 {
+    width: 10em;
+}
+
+
 div.production {
     border-radius: 50%;
     flex-shrink: 0;
@@ -172,9 +178,7 @@ div.production {
 }
 
 div.production h3 {
-    font-size: 100%;
-    margin: 2em auto;
-    width: fit-content;
+    margin: 5em auto;
 }
 
 div.production:hover {
