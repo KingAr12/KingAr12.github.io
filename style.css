@@ -45,7 +45,7 @@ nav {
     padding-bottom: .6em;
     border-bottom: 1px solid rgba(51, 81, 82, 0.333);
     margin: 1em auto;
-    width: 16em;
+    width: max-content;
 }
 
 nav a {
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 nav span {
-    margin-right: .5em;
+   
 }
 
 nav span:first-child:before {
