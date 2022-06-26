@@ -31,10 +31,10 @@ header.header h1 {
     border: 4px solid rgba(197, 119, 149, 0.503);
     background-color:rgb(255, 217, 231); 
     border-radius: 10em;
-    width: 50%;
+    width: fit-content;
     height: 30%;
-    padding-top: .2em;
-    margin: 0 auto;
+    padding: .4em 1em 0;
+    margin: 1em auto;
     letter-spacing: 0.2em;
     font-size: 130%;
 }
