@@ -114,6 +114,8 @@ section.grid {
     border-radius: 2em;
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 .D1 {
