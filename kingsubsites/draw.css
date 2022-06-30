@@ -89,26 +89,30 @@ section.intro h2 {
 
 section.grid {
     display: grid;
-    grid-template: 1fr / 1fr 1fr;
+    grid-template: 1fr / 1fr;
     grid-auto-rows: 1fr;
-    grid-auto-columns: 1fr;
     row-gap: 4em;
+    justify-items: center;
 }
 
 .grid div {
     text-align: center;
-
+    width: 90%;
 }
 
+
+/*
 
 .illustration {
-
+    
 }
 
+*/
+
 .illustration img {
-    border-radius: 1em;
-    width: 24em;
-    height: 14em;
+    border-radius: 2em;
+    max-width: 100%;
+    height: auto;
 }
 
 .D1 {

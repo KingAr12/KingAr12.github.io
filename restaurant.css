@@ -185,7 +185,7 @@ table.menu th {
     height: 2em;
     border: .5rem solid rgb(224, 126, 164);
     border-radius: 2em;
-    letter-spacing: 0.5em;
+    letter-spacing: .6rem;
 }
 
 tr.menusize td {
