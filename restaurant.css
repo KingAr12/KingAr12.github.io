@@ -20,6 +20,7 @@ header {
     background-image: url('foodimgs/firstcatercustomer.JPG');
     background-repeat: no-repeat;
     background-position: 50% 60%; 
+    background-size: cover;
     margin: 0 auto;
     padding-top: 5%;
     width: 100%;
@@ -43,7 +44,7 @@ header.header p {
     background-color: rgb(148, 33, 77);
     border-radius: 0 0 0 1em;
     width: 25em; 
-    height: 5%;
+    height: 6%;
     padding-top: 1%;
     font-size: 90%;
     font-weight: 900;
