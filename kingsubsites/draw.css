@@ -93,6 +93,7 @@ section.grid {
     grid-auto-rows: 1fr;
     row-gap: 4em;
     justify-items: center;
+    margin-bottom: 10%;
 }
 
 .grid div {
