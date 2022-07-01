@@ -86,6 +86,10 @@ section.intro h2 {
     letter-spacing: .2em;
 }
 
+section.intro p {
+    font-size: 80%;
+}
+
 
 section.grid {
     display: grid;
@@ -99,8 +103,12 @@ section.grid {
 .grid div {
     text-align: center;
     width: 90%;
+    font-size: 80%;
 }
 
+.grid div p {
+    padding-top: 2em;
+}
 
 /*
 
@@ -119,10 +127,3 @@ section.grid {
     margin: auto;
 }
 
-.D1 {
-    
-}
-
-.D2 {
-    
-}
