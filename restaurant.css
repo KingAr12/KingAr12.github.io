@@ -43,11 +43,12 @@ header.header h1 {
 header.header p {
     background-color: rgb(148, 33, 77);
     border-radius: 0 0 0 1em;
-    width: 25em; 
-    height: 5%;
+    width: 30%;
+    min-width: 25em; 
+    height: 6%;
     padding-top: 1%;
     font-size: 90%;
-    font-weight: 900;
+    font-weight: 700;
     color:rgb(255, 217, 231);
     position: fixed;
     right: 0%;

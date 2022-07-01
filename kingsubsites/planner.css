@@ -94,11 +94,10 @@ section.plgrid {
     display: grid;
     grid-template-areas:
                 "date tasks goals"
-                "date tasks goals"
                 "image image image"
                 "image image image";
-    width: 80%;
-    height: 30em;
+    width: 100%;
+    height: 25em;
     justify-items: stretch;
     justify-content: stretch;
     align-items: stretch;
@@ -108,15 +107,19 @@ section.plgrid {
 .box {
     text-align: center;
     border: 2px solid rgba(160, 218, 218, 0.292);
+    display: grid;
+    justify-items: center;
 }
 
 .box h3 {
     width: fit-content;
+    font-size: 100%;
 }
 
 .box ul li {
     width: fit-content;
     margin: 0 auto;
+    font-size: 80%;
 }
 
 .a {
@@ -138,7 +141,8 @@ section.plgrid {
     grid-area: image;
     background-image: url('../imgs/richmondlowes.JPG');
     background-position: 50% 20%;
-    background-size: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .d h3 {
@@ -151,15 +155,5 @@ section.plgrid {
 }
 
 
-.ovbox {
-    grid-area: 2 / 2 / 4 / 3;
-    border: solid 2px rgb(224, 242, 243);
-    background-color: rgba(224, 242, 243, 0.907);
-    z-index: 2;
-}
-.ovbox h3 {
-    font-size: 300%;
-    text-align: center;
-    padding-top: 1em;
-}
+
 
