@@ -73,12 +73,12 @@ main {
 }
 
 nav {
-    padding-top: 1em;
+    padding-top: .5em;
     position: relative;
     margin: 0 auto;
     background-color: rgb(189, 65, 112);
-    font-size: large;
-    height: 3.5rem;
+    font-size: 140%;
+    height: 5rem;
 }
 
 nav span {
@@ -89,12 +89,13 @@ nav span {
 }
 
 a.nav {
-    background-color: rgb(224, 126, 164);
+    padding: .5em 1em 0em;
+    background-color: rgba(224, 126, 164, 0.715);
     border: .1rem solid rgb(233, 162, 189);
     border-radius: 1rem;
     color: rgb(255, 217, 231);
-    padding: 5%;
-    box-shadow: 0 .4rem;
+    box-shadow: 0 .2rem;
+    height: 2em;
 }
 
 a.nav:hover {
@@ -253,6 +254,18 @@ footer h3 {
 @media only screen and (max-width: 480px) {
     header.header p {
         font-size: 70%;
+    }
+
+    nav {
+        padding-top: 1em;
+        font-size: large;
+        height: 3.5rem;
+    }
+
+    a.nav {
+        padding: 5%;
+        height: 1.4em;
+        box-shadow: 0 .16rem;
     }
 
     table.menu th {
