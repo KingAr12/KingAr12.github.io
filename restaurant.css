@@ -207,7 +207,8 @@ tr.dish td {
 }
 
 img.menpic {
-    width: 100%;
+    margin: auto;
+    width: 40%;
     height: auto;
     display: block;
 }
@@ -252,5 +253,23 @@ footer h3 {
 @media only screen and (max-width: 480px) {
     header.header p {
         font-size: 70%;
+    }
+
+    table.menu th {
+        font-size: 250%;
+    }
+
+    tr.menusize td {
+        font-size: 130%;
+    }
+
+    tr.dish td {
+        font-size: 90%;
+    }
+
+    img.menpic {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
