@@ -185,6 +185,22 @@ div.production:hover {
     opacity: 1;
 }
 
+
+
+section.JStest {
+    
+}
+
+section.JStest div {
+    text-align: center;
+}
+
+section.JStest div h2 {
+    font-size: 130%;
+    letter-spacing: .2em;
+}
+
+
 footer {
     background-color: rgba(158, 209, 211, 0.350);
     text-align: center;
