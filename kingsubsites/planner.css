@@ -106,12 +106,15 @@ section.plgrid {
 }
 
 .box {
+    border-radius: 1em;
     text-align: center;
     display: grid;
     justify-items: center;
     background-color: rgba(160, 218, 218, 0.762);
     height: 97%;
+    margin-top: 1em;
 }
+    
 
 .box h3 {
     margin-top: 1em;
@@ -142,34 +145,19 @@ section.plgrid {
 .a p {
     color: rgb(224, 242, 243);
 }
-    @media only screen and (max-width: 480px) {
-        .a {
-            grid-column: 1 / 5;
-            background-size: cover;
-            background-position: 50% 50%;
-            margin-bottom: 1em;
-        }
-    }
+
 
 .b {
     grid-area: tasks;
     width: 100%;
 }
-    @media only screen and (max-width: 480px) {
-        .b {
-            display: none;
-        }
-    }
+
 
 .c {
     grid-area: goals;
     width: 100%;
 }
-    @media only screen and (max-width: 480px) {
-        .c {
-            display: none;
-        }
-    }
+
 
 .d {
     grid-area: image;
@@ -179,6 +167,7 @@ section.plgrid {
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
+    margin-bottom: 1em;
 }
 
 .d h3 {
@@ -191,5 +180,24 @@ section.plgrid {
 }
 
 
-
+    @media only screen and (max-width: 480px) {
+        .box {
+            width: 90%;
+        }
+        .a {
+            grid-column: 1 / 5;
+            background-size: cover;
+            background-position: 50% 50%;
+            margin-bottom: .5em;
+        }
+        .b {
+            display: none;
+        }
+        .c {
+            display: none;
+        }
+        .d {
+            width: 95%;
+        }
+    }
 
