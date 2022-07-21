@@ -89,16 +89,16 @@ section.intro h2 {
 
 section.plgrid {
     margin: 5em auto;
-    background-color: rgba(160, 218, 218, 0.292);
+    background-color: rgba(160, 218, 218, 0.408);
     border-radius: .5em;
     display: grid;
     grid-template-areas:
-                "date tasks goals"
-                "image image image"
-                "image image image";
+                "date date tasks goals"
+                "date date tasks goals"
+                "image image image image";
     width: 100%;
-    height: 25em;
-    justify-items: stretch;
+    height: 55em;
+    justify-items: flex-end;
     justify-content: stretch;
     align-items: stretch;
     align-content: stretch;
@@ -106,43 +106,67 @@ section.plgrid {
 
 .box {
     text-align: center;
-    border: 2px solid rgba(160, 218, 218, 0.292);
     display: grid;
     justify-items: center;
 }
 
 .box h3 {
     width: fit-content;
-    font-size: 100%;
+    font-size: 120%;
+    letter-spacing: .2em;
+    color: rgb(224, 242, 243);
 }
 
 .box ul li {
     width: fit-content;
     margin: 0 auto;
-    font-size: 80%;
 }
 
 .a {
     grid-area: date;
+    background-image: url('../imgs/me.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
 }
-
+    @media only screen and (max-width: 480px) {
+        .a {
+            grid-column: 1 / 5;
+            justify-items: flex-start;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
 
 .b {
     grid-area: tasks;
+    width: 100%;
 }
-
+    @media only screen and (max-width: 480px) {
+        .b {
+            display: none;
+        }
+    }
 
 .c {
     grid-area: goals;
+    width: 100%;
 }
-
+    @media only screen and (max-width: 480px) {
+        .c {
+            display: none;
+        }
+    }
 
 .d {
     grid-area: image;
     background-image: url('../imgs/richmondlowes.JPG');
     background-position: 50% 20%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
 }
 
 .d h3 {
