@@ -141,9 +141,9 @@ section.plgrid {
     @media only screen and (max-width: 480px) {
         .a {
             grid-column: 1 / 5;
-            justify-items: flex-start;
             background-size: cover;
             background-position: 50% 50%;
+            margin-bottom: 1em;
         }
     }
 
