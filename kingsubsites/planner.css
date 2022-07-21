@@ -114,6 +114,7 @@ section.plgrid {
 }
 
 .box h3 {
+    margin-top: 1em;
     width: fit-content;
     font-size: 120%;
     letter-spacing: .2em;
@@ -133,17 +134,20 @@ section.plgrid {
     height: auto;
     width: 100%;
     color: rgb(224, 242, 243);
+    align-items: baseline;
+    align-content: space-around;
 }
 
-.a h3 {
+.a h3,
+.a p {
     color: rgb(224, 242, 243);
 }
     @media only screen and (max-width: 480px) {
         .a {
             grid-column: 1 / 5;
-            justify-items: flex-start;
             background-size: cover;
             background-position: 50% 50%;
+            margin-bottom: 1em;
         }
     }
 
