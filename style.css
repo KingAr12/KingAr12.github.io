@@ -45,7 +45,7 @@ nav {
     padding-bottom: .6em;
     border-bottom: 1px solid rgba(51, 81, 82, 0.333);
     margin: 1em auto;
-    width: max-content;
+    width: 17%;
 }
 
 nav a {
@@ -68,7 +68,7 @@ nav span {
 nav span:first-child:before {
     color: rgba(51, 81, 82, 0.64);
     content: 'Go to:';
-    padding-right: 1em;
+    padding-right: .5em;
 }
 
 
