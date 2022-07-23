@@ -45,7 +45,7 @@ nav {
     padding-bottom: .6em;
     border-bottom: 1px solid rgba(51, 81, 82, 0.333);
     margin: 1em auto;
-    width: 17%;
+    width: 18%;
 }
 
 nav a {
@@ -277,3 +277,10 @@ footer div ul li+li::before {
 
 }
 
+
+
+@media only screen and (max-width: 480px) {
+    nav {
+        width: 65%;
+    }
+}
