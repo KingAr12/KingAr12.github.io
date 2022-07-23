@@ -6,4 +6,9 @@ This GitHub repository contains a website that acts as a business card for poten
 
 Goals:
 ------
-In the foreseeable future, after building this repository with many projects, I plan to ship my personal website to a fully own domain.
+> In the foreseeable future, after building this repository with many projects, 
+> I plan to ship my personal website to a fully own domain.
+
+1. Add projects to portfolio
+2. Enumerate website with more complex user friendly interactions
+3. Ship repository to personal domain
