@@ -5,6 +5,10 @@ Directions:
 -----------
 Go to website, visit **[KingAr12.github.io](./index.html)**.
 
+> **Please type the URL into your browser's search bar and enter.**
+
+> Clicking on the link will directly take you to the websites html file.
+
 Description:
 ------------
 This GitHub repository contains a website that acts as a business card for potential employment or a source of my creative outputs.
