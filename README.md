@@ -1,5 +1,10 @@
 Website As Portfolio
 ====================
+
+Directions:
+-----------
+Go to website, visit **[KingAr12.github.io](KingAr12.github.io)**.
+
 Description:
 ------------
 This GitHub repository contains a website that acts as a business card for potential employment or a source of my creative outputs.
