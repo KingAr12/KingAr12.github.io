@@ -18,7 +18,7 @@ Goals:
 2. Enumerate website with more complex user friendly interactions
 3. Ship repository to personal domain
 
-### Languages:
+## Languages:
 Programming languages used in this project
 
 * HTML
