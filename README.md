@@ -3,7 +3,7 @@ Website As Portfolio
 
 Directions:
 -----------
-Go to website, visit **[KingAr12.github.io](KingAr12.github.io)**.
+Go to website, visit **[KingAr12.github.io]()**.
 
 Description:
 ------------
@@ -17,3 +17,10 @@ Goals:
 1. Add projects to portfolio
 2. Enumerate website with more complex user friendly interactions
 3. Ship repository to personal domain
+
+### Languages:
+Programming languages used in this project
+
+* HTML
+* CSS
+* JavaScript
