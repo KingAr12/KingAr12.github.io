@@ -3,7 +3,7 @@ Website As Portfolio
 
 Directions:
 -----------
-Go to website, visit **[KingAr12.github.io]()**.
+Go to website, visit **[KingAr12.github.io](./index.html)**.
 
 Description:
 ------------
