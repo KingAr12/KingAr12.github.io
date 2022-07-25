@@ -9,7 +9,7 @@ Go to website, visit **[KingAr12.github.io](./index.html)**.
 
 Description:
 ------------
-This GitHub repository contains a website that acts as a business card for potential employment or a source of my creative outputs.
+This GitHub repository contains a website that acts as a business card for potential employment or a source of my creative outputs. The website was created from scratch and will continue to be built upon over many versions with increasingly complex codes as I pursue along my coding journey. 
 
 Goals:
 ------
