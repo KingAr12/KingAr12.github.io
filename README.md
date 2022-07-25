@@ -19,6 +19,7 @@ Goals:
 1. Add projects to portfolio
 2. Enumerate website with more complex user friendly interactions
 3. Ship repository to personal domain
+4. Get hired  
 
 ## Languages:
 Programming languages used in this project
