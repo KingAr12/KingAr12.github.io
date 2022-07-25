@@ -4,8 +4,7 @@ Website As Portfolio
 Directions:
 -----------
 Go to website, visit **[KingAr12.github.io](./index.html)**.
-
-**Please type the URL into your browser's search bar and enter.**
+**Type/Copy the URL into your browser's search bar and enter.**
 > Clicking on the link will directly take you to the websites html file.
 
 Description:
