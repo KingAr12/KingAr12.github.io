@@ -27,6 +27,6 @@ Programming languages used in this project
 * CSS
 * JavaScript
 
-### [License](./COPYING.txt):
+## [License](./COPYING.txt):
 
 * GNU GPLv3
