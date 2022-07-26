@@ -74,6 +74,7 @@ nav span:first-child:before {
 
 section.intro {
     margin-top: 1em;
+    margin-bottom: 3em;
 }
 
 section.intro h2 {
@@ -82,6 +83,30 @@ section.intro h2 {
     font-size: 80%;
     font-weight: 100;
 }
+
+
+section.JStest {
+     
+}
+
+section.JStest div {
+    background-color: rgba(149, 216, 221, 0.399);
+    text-align: center;
+    margin: auto;
+    border-radius: 2em;
+    width: 16em; 
+    padding: .6em;
+}
+
+section.JStest div h2 {
+    font-size: 100%;
+    letter-spacing: .2em;
+}
+
+section.JStest div p {
+    font-size: 210%;
+}
+
 
 section.projects {  
     margin: 2em auto;
@@ -183,22 +208,6 @@ div.production h3 {
 
 div.production:hover {
     opacity: 1;
-}
-
-
-
-section.JStest {
-    border: 1px solid red; 
-    height: 10em;
-}
-
-section.JStest div {
-    text-align: center;
-}
-
-section.JStest div h2 {
-    font-size: 130%;
-    letter-spacing: .2em;
 }
 
 

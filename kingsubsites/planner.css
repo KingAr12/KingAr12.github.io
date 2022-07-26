@@ -124,10 +124,6 @@ section.plgrid {
     color: rgba(51, 81, 82, 0.64);
 }
 
-.box ul li {
-    width: fit-content;
-    margin: 0 auto;
-}
 
 .a {
     grid-area: date;
@@ -158,6 +154,9 @@ section.plgrid {
     width: 100%;
 }
 
+.b,
+.c {
+}
 
 .d {
     grid-area: image;
