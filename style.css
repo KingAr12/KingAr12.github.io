@@ -188,7 +188,8 @@ div.production:hover {
 
 
 section.JStest {
-    
+    border: 1px solid red; 
+    height: 10em;
 }
 
 section.JStest div {
@@ -274,14 +275,9 @@ div.cp p {
 }
 
 
-footer div ul li+li::before {
 
-}
-
-
-
-@media only screen and (max-width: 480px) {
-    nav {
-        width: 65%;
+    @media only screen and (max-width: 480px) {
+        nav {
+            width: 65%;
+        }
     }
-}
