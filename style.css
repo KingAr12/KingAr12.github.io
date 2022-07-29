@@ -8,7 +8,7 @@
 body {
     background-color: rgba(216, 239, 240, 0.445);
     box-sizing: border-box;
-    background-image: url('./imgs/backgroundImg01.jpg');
+    background-image: url('./imgs/backgroundImg02.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -66,9 +66,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-nav span {
-   
-}
 
 nav span:first-child:before {
     color: rgb(224, 242, 243);
@@ -92,6 +89,7 @@ section.intro h2 {
     margin: auto;
     font-size: 80%;
     font-weight: 100;
+    color: rgb(232, 242, 243);
 }
 
 
@@ -147,6 +145,7 @@ section.JStest div a:visited {
 section.JStest div p {
     margin-top: .5em;
     font-size: 210%;
+    font-weight: 900;
     letter-spacing: .5em;
 }
 
@@ -182,7 +181,7 @@ div.food {
     padding-top: 6em;
     border-radius: 50%;
     flex-shrink: 0;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 div.food:hover {
@@ -338,8 +337,9 @@ div.cp p {
         };
 
         section.JStest div p {
-            font-size: 80%;
-            letter-spacing: .2em    ;
+            margin-top: .5em;
+            font-size: 210%;
+            letter-spacing: .5em;
         }
 
         div.food,
