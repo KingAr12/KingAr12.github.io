@@ -86,25 +86,35 @@ section.intro h2 {
 
 
 section.JStest {
-     
+
 }
 
 section.JStest div {
-    background-color: rgba(149, 216, 221, 0.399);
     text-align: center;
-    margin: auto;
-    border-radius: 2em;
-    width: 16em; 
-    padding: .6em;
+    margin: auto; 
 }
 
 section.JStest div h2 {
     font-size: 100%;
     letter-spacing: .2em;
+    width: fit-content;
+    margin: auto;
+    padding: .5em;
+    color: rgb(224, 242, 243);
+    border-radius: 1em;
+    background-color: rgba(149, 216, 221, 0.616);
+    box-sizing: border-box;
+}
+
+section.JStest div h2:hover {
+    border: 1px solid rgb(71, 102, 104);
+    color:rgb(39, 68, 68);
 }
 
 section.JStest div p {
+    margin-top: .5em;
     font-size: 210%;
+    letter-spacing: .5em;
 }
 
 
@@ -288,5 +298,10 @@ div.cp p {
     @media only screen and (max-width: 480px) {
         nav {
             width: 65%;
+        };
+
+        section.JStest div p {
+            font-size: 80%;
+            letter-spacing: .2em    ;
         }
     }
