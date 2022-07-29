@@ -6,10 +6,9 @@ const getRandomNumber = () => Math.round(Math.random() * 100);
 //add button interactivity
 let dateButton = document.getElementById('button');
 //function to change innerHTML of removeElement to currentDate
-dateButton.onclick = () => {
-    removeElement.innerHTML = currentDate;
-};
-
+let clickButton = () => removeElement.innerHTML = currentDate;
+//add event listener for date button
+dateButton.addEventListener('click', clickButton);
 
 
 //remove an element from JStexts

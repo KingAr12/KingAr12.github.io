@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     font-family: 'Karla', sans-serif;
-    color:rgb(39, 68, 68);
+    color:rgb(224, 242, 243);
 }
 
 body {
     background-color: rgba(216, 239, 240, 0.445);
     box-sizing: border-box;
+    background-image: url('./imgs/backgroundImg01.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 header {
-    background-color: rgba(158, 209, 211, 0.350);
-    height: 3.4em;
+    background-color: rgba(190, 227, 229, 0.938);
+    height: 3.5em;
     text-align: right;
 }
 
@@ -46,6 +50,7 @@ nav {
     border-bottom: 1px solid rgba(51, 81, 82, 0.333);
     margin: 1em auto;
     width: 18%;
+    color: rgb(224, 242, 243);
 }
 
 nav a {
@@ -66,9 +71,14 @@ nav span {
 }
 
 nav span:first-child:before {
-    color: rgba(51, 81, 82, 0.64);
+    color: rgb(224, 242, 243);
     content: 'Go to:';
     padding-right: .5em;
+}
+
+
+main {
+    height: 75em;
 }
 
 
@@ -85,8 +95,9 @@ section.intro h2 {
 }
 
 
-section.JStest {
-
+section.projects {
+    position: sticky;
+    top: 3em;
 }
 
 section.JStest div {
@@ -94,21 +105,43 @@ section.JStest div {
     margin: auto; 
 }
 
-section.JStest div h2 {
+section.JStest div button {
+    border: none;
     font-size: 100%;
     letter-spacing: .2em;
     width: fit-content;
     margin: auto;
-    padding: .5em;
+    padding: .8em;
     color: rgb(224, 242, 243);
-    border-radius: 1em;
-    background-color: rgba(149, 216, 221, 0.616);
+    border-radius: 1.2em;
+    background-color: rgba(190, 227, 229, 0.673);
     box-sizing: border-box;
 }
 
-section.JStest div h2:hover {
+section.JStest div button:hover {
+    border: none;
+    color:rgb(39, 68, 68);
+}
+
+section.JStest div button:active {
     border: 1px solid rgb(71, 102, 104);
     color:rgb(39, 68, 68);
+    padding: .4em;
+    background-color: rgba(83, 191, 199, 0.616);
+}
+
+section.JStest div button:focus {
+    border: 1px solid rgb(71, 102, 104);
+    color:rgb(39, 68, 68);
+    padding: .4em;
+    background-color: rgba(83, 191, 199, 0.616);
+}
+
+section.JStest div a:visited {
+    border: 1px solid rgb(71, 102, 104);
+    color:rgb(39, 68, 68);
+    padding: .4em;
+    background-color: rgba(83, 191, 199, 0.616);
 }
 
 section.JStest div p {
@@ -120,11 +153,11 @@ section.JStest div p {
 
 section.projects {  
     margin: 2em auto;
-    height: 50em;
+    height: auto;
 }
 
 section.projects h2 {
-    color: rgb(39, 68, 68);
+    color: rgb(224, 242, 243);
     text-align: center;
     font-size: 130%;
     letter-spacing: .2em;
@@ -149,6 +182,11 @@ div.food {
     padding-top: 6em;
     border-radius: 50%;
     flex-shrink: 0;
+    opacity: 0.8;
+}
+
+div.food:hover {
+    opacity: 1;
 }
 
 div.food p {
@@ -209,7 +247,7 @@ div.production {
     background-image: url('./imgs/firstdrawing.jpg');
     background-position: 23% 50%;
     background-size: 135%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 div.production h3 {
@@ -222,7 +260,7 @@ div.production:hover {
 
 
 footer {
-    background-color: rgba(158, 209, 211, 0.350);
+    background-color: rgba(190, 227, 229, 0.938);
     text-align: center;
 }
 
@@ -247,19 +285,21 @@ footer div h3,
 footer div ul {
     padding: 0 1em;
     height: fit-content;
+    color: rgb(39, 68, 68);
 }
 
 footer div h3 {
     font-size: 80%;
 }
 
-footer div ul {
-    
+footer div ul li a {
+    color: rgb(39, 68, 68);
 }
 
 footer div ul li {
     width: fit-content;
     font-size: 80%;
+    color: rgb(39, 68, 68);
 }
 
 #socials {
@@ -275,9 +315,6 @@ footer div ul li {
     height: fit-content;
     width: fit-content;
     margin: 0 1em;
-}
-
-#socials li a {
 }
 
 
@@ -304,4 +341,10 @@ div.cp p {
             font-size: 80%;
             letter-spacing: .2em    ;
         }
+
+        div.food,
+        div.production {
+            opacity: 1;
+        }
+
     }
