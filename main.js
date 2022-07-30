@@ -8,7 +8,7 @@ let dateButton = document.getElementById('button');
 //function to change innerHTML of removeElement to currentDate
 let clickButton = () => removeElement.innerHTML = currentDate;
 //add event listener for date button
-dateButton.addEventListener('click', clickButton);
+dateButton.onclick = clickButton;
 
 
 //remove an element from JStexts
