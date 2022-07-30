@@ -47,7 +47,7 @@ header p {
 nav {
     text-align: center;
     padding-bottom: .6em;
-    border-bottom: 1px solid rgba(51, 81, 82, 0.333);
+    border-bottom: 1px solid rgb(224, 242, 243);
     margin: 1em auto;
     width: 18%;
     color: rgb(224, 242, 243);
