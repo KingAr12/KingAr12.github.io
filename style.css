@@ -8,14 +8,14 @@
 body {
     background-color: rgba(216, 239, 240, 0.445);
     box-sizing: border-box;
-    background-image: url('./imgs/backgroundImg02.jpg');
+    background-image: url('./imgs/backgroundImg01.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
 }
 
 header {
-    background-color: rgba(190, 227, 229, 0.938);
+    background-color: rgb(216, 239, 240);
     height: 3.5em;
     text-align: right;
 }
@@ -259,7 +259,7 @@ div.production:hover {
 
 
 footer {
-    background-color: rgba(190, 227, 229, 0.938);
+    background-color: rgb(216, 239, 240);
     text-align: center;
 }
 
