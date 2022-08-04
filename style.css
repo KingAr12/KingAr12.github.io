@@ -75,7 +75,7 @@ nav span:first-child:before {
 
 
 main {
-    height: 75em;
+    height: auto;
 }
 
 
@@ -93,22 +93,21 @@ section.intro h2 {
 }
 
 
-section.projects {
-    position: sticky;
-    top: 1em;
+section.JStest {
+    height: fit-content;
 }
 
-section.JStest div {
+#JStexts {
     text-align: center;
     margin: auto; 
 }
 
-section.JStest div button {
+.JStest button {
     border: none;
     font-size: 100%;
     letter-spacing: .2em;
-    width: fit-content;
-    margin: auto;
+    width: 14%;
+    margin-top: 1em;
     padding: .8em;
     color: rgb(224, 242, 243);
     border-radius: 1.2em;
@@ -116,38 +115,51 @@ section.JStest div button {
     box-sizing: border-box;
 }
 
-section.JStest div button:hover {
+.JStest button:hover {
     border: none;
     color:rgb(39, 68, 68);
 }
 
-section.JStest div button:active {
+.JStest button:active {
+    border: 1px solid rgb(71, 102, 104);
+    color:rgb(39, 68, 68);
+    padding: .6em;
+    background-color: rgba(83, 191, 199, 0.616);
+}
+
+.JStest a:visited {
     border: 1px solid rgb(71, 102, 104);
     color:rgb(39, 68, 68);
     padding: .4em;
     background-color: rgba(83, 191, 199, 0.616);
 }
 
-section.JStest div button:focus {
-    border: 1px solid rgb(71, 102, 104);
-    color:rgb(39, 68, 68);
-    padding: .4em;
-    background-color: rgba(83, 191, 199, 0.616);
-}
-
-section.JStest div a:visited {
-    border: 1px solid rgb(71, 102, 104);
-    color:rgb(39, 68, 68);
-    padding: .4em;
-    background-color: rgba(83, 191, 199, 0.616);
-}
-
-section.JStest div p {
+#JStexts p {
     margin-top: .5em;
-    font-size: 210%;
+    font-size: 220%;
     font-weight: 900;
     letter-spacing: .5em;
 }
+
+
+.userInteraction {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    margin-top: 1em;
+}
+
+.userInteraction p {
+    font-size: 120%;
+    margin-right: 2em;
+    display: none;
+}
+
+.userInteraction button {
+    margin-right: 1em;
+}   
 
 
 section.projects {  
@@ -340,6 +352,16 @@ div.cp p {
             margin-top: .5em;
             font-size: 210%;
             letter-spacing: .5em;
+        }
+
+        .JStest button {
+            width: 10em;
+            font-size: 70%;
+        }
+        
+        .userInteraction p {
+            font-size: 90%;
+            margin-right: 1em;
         }
 
         div.food,
