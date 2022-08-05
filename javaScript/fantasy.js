@@ -4,7 +4,7 @@ const firstNameArr = ['Grognak', 'Jamoose', 'Pkola', 'King', 'R\'quell', 'Woy', 
 'Tupsig', 'Vahlqa', 'Jayward', 'Frumtpon', 'Carliser'];
 
 const lastNameArr = ['Maiople', 'Killowog', 'Qoits', 'Arciaga', 'Sombersand', 'Ceod', 'Vopnar', 'Fozzy', 'Gizzard', 'Pomernan', 'Squiresome', 
-'Azurin', 'Acevado', 'Frietze', 'Santiago', '', 'Shlecka', 'LaFlaum', 'Drangoe', 'Dain', 'Goldguard', 'Oivae', 'Pirgub', 'Wirestreak', 
+'Azurin', 'Acevado', 'Hill', 'Santiago', '', 'Shlecka', 'LaFlaum', 'Drangoe', 'Dain', 'Goldguard', 'Oivae', 'Pirgub', 'Wirestreak', 
 'Tourne', 'Kornerstied', 'Leugh', 'Vejwa', 'Woltnik', 'Guilderen', 'Dome'];
 
 const titleArr = ['The Terrible', 'The Great', 'The Divine Dragon', 'The Creator', 'The Perciever', 'Enormous Jopn', 'mK12', 
@@ -14,30 +14,21 @@ const titleArr = ['The Terrible', 'The Great', 'The Divine Dragon', 'The Creator
 
 //array length of each vars above
 var firstNameArrLength = firstNameArr.length;
-
 var lastNameArrLength = lastNameArr.length;
-
 var titleArrLength = titleArr.length;
-
-//getRandomIndex() of each array
-const getRandomIndex = (arr) => Math.floor(Math.random() * arr.length)
-
-//variables each containing array's getRandomIndex()
-const firstNameArrIndex = getRandomIndex(firstNameArr);
-
-const lastNameArrIndex = getRandomIndex(lastNameArr);
-
-const titleArrIndex = getRandomIndex(titleArr);
-
-//variables of randomly chosen names and titles
-const firstName = firstNameArr[firstNameArrIndex];
-
-const lastName = lastNameArr[lastNameArrIndex];
-
-const title = titleArr[titleArrIndex];
 
 //function to generate a message with randomized names and titles
 const getRandomFantasyName = (first, last, title1) => {
+    //getRandomIndex() of each array
+    const getRandomIndex = (arr) => Math.floor(Math.random() * arr.length)
+    //variables each containing array's getRandomIndex()
+    const firstNameArrIndex = getRandomIndex(firstNameArr);
+    const lastNameArrIndex = getRandomIndex(lastNameArr);
+    const titleArrIndex = getRandomIndex(titleArr);
+    //variables of randomly chosen names and titles
+    const firstName = firstNameArr[firstNameArrIndex];
+    const lastName = lastNameArr[lastNameArrIndex];
+    const title = titleArr[titleArrIndex];    
     first = firstName;
     last = lastName;
     title1 = title;

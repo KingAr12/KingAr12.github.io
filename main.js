@@ -99,7 +99,7 @@
                 'Eduardo', 'Joaquin', 'Adam', '', 'Mecka', 'Griggori', 'Vascque', 'Serashi', 'Pilaf', 'Dlut', 'Geomat', 'Doguq', 'Ronia', 'Delfrene',
                 'Tupsig', 'Vahlqa', 'Jayward', 'Frumtpon', 'Carliser'];
                 const lastNameArr = ['Maiople', 'Killowog', 'Qoits', 'Arciaga', 'Sombersand', 'Ceod', 'Vopnar', 'Fozzy', 'Gizzard', 'Pomernan', 'Squiresome', 
-                'Azurin', 'Acevado', 'Frietze', 'Santiago', '', 'Shlecka', 'LaFlaum', 'Drangoe', 'Dain', 'Goldguard', 'Oivae', 'Pirgub', 'Wirestreak', 
+                'Azurin', 'Acevado', 'Hill', 'Santiago', '', 'Shlecka', 'LaFlaum', 'Drangoe', 'Dain', 'Goldguard', 'Oivae', 'Pirgub', 'Wirestreak', 
                 'Tourne', 'Kornerstied', 'Leugh', 'Vejwa', 'Woltnik', 'Guilderen', 'Dome'];
                 const titleArr = ['The Terrible', 'The Great', 'The Divine Dragon', 'The Creator', 'The Perciever', 'Enormous Jopn', 'mK12', 
                 'The Duke of Arsella', 'The ShapeShifting Reptile', 'Insane Plectr', 'The Knight', 'The Bard', 'Lustful Demon', 'Dream God', 'The Artist', '',
@@ -124,6 +124,7 @@
                     first = firstName;
                     last = lastName;
                     title1 = title;
+                    //userInput.removeEventListener('click', getName);
                     return (first === '') ? `${last} ${title1}`
                     : (last === '')  ? `${first} ${title1}`
                     : (title1 === '') ? `${first} ${last}`
@@ -139,7 +140,6 @@
     let getName = () => {
         randomName.style.display = 'block';
         randomName.innerHTML = getRandomFantasyName()
-        
     };
     //add event listener for userInput
     userInput.addEventListener('click', getName); 

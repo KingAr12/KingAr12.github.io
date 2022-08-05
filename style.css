@@ -113,24 +113,20 @@ section.JStest {
     border-radius: 1.2em;
     background-color: rgba(190, 227, 229, 0.673);
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .JStest button:hover {
-    border: none;
     color:rgb(39, 68, 68);
 }
 
 .JStest button:active {
-    border: 1px solid rgb(71, 102, 104);
-    color:rgb(39, 68, 68);
-    padding: .6em;
     background-color: rgba(83, 191, 199, 0.616);
 }
 
 .JStest a:visited {
     border: 1px solid rgb(71, 102, 104);
     color:rgb(39, 68, 68);
-    padding: .4em;
     background-color: rgba(83, 191, 199, 0.616);
 }
 
@@ -216,26 +212,24 @@ h3.pjlink {
     background-color: rgba(149, 216, 221, 0.852);
     border-radius: 2em;
     margin: 0 auto;
-    height: 2.4em;
+    height: fit-content;
     text-align: center;
-    width: 11em;
-    padding-top: .5em;
+    width: fit-content;
     box-sizing: border-box;
 }
 
 h3.pjlink a {
     color: rgb(232, 242, 243);
+    background-color: rgba(138, 207, 212);
     letter-spacing: .2em;
     font-weight: 700;
     font-size: 90%;
-    padding: .4em;
+    padding: .6em;
     border-radius: 3em;
 }
 
-h3.pjlink:hover {
-    border-bottom: 2px solid rgb(39, 68, 68);
-    color: rgb(224, 242, 243);
-    background-color: rgba(138, 207, 212);
+h3.pjlink a:active {
+    background-color: rgb(255, 255, 255);
 }
 
 h3.pjlink a:hover {
@@ -263,6 +257,7 @@ div.production {
 
 div.production h3 {
     margin: 5em auto;
+    width: fit-content;
 }
 
 div.production:hover {

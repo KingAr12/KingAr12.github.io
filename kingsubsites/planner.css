@@ -142,6 +142,35 @@ section.plgrid {
     color: rgb(224, 242, 243);
 }
 
+.a p {
+    align-self: end;
+    margin-top: 12em;
+}
+
+.box button {
+    padding-top: 1%;
+    height: 2em;
+    width: 6em;
+    border-radius: 1em;
+    margin-right: 2em;
+    justify-self: end;
+    cursor: pointer;
+    background-color: rgba(190, 227, 229, 0.516);   
+    color:rgb(39, 68, 68);
+    display: none;
+    border: none;
+}
+
+.box button:hover {
+    background-color: rgba(190, 227, 229, 0.664);
+    color: rgb(224, 242, 243);
+}
+
+.box button:active {
+    background-color: rgba(190, 227, 229, 0.478);
+    color:rgb(39, 68, 68);
+}
+
 
 .b {
     grid-area: tasks;
@@ -189,10 +218,22 @@ section.plgrid {
             background-position: 50% 50%;
             margin-bottom: .5em;
         }
-        .b {
-            display: none;
+        .box button {
+            display: grid;
         }
+        .a p {
+            margin-top: 22em;
+        }
+
+        .b {
+            grid-column: 1 / 5;
+            display: none;
+            width: 90%;
+        }
+        
         .c {
+            grid-column: 1 / 5;
+            width: 90%;
             display: none;
         }
         .d {
