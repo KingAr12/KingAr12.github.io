@@ -1,5 +1,10 @@
 /*JS codes for index.html and style.css*/
 
+    //create anonymous funcs for basic interaction
+    //create hover func
+
+
+
     //generates a random number between 0 and 100
     const getRandomNumber = () => Math.round(Math.random() * 100);
     //create a variable that contains Date obj
@@ -143,6 +148,16 @@
     };
     //add event listener for userInput
     userInput.addEventListener('click', getName); 
+    //function for mousedown and mouseup for margin effect
+    let randomNamefocus = () => {
+        randomName.style.marginRight = '1.5em';
+    };
+    let randomNameUnfocus = () => {
+        randomName.style.marginRight = '2em';
+    };
+    //add event listener for userinput and focus()
+    userInput.addEventListener('mousedown', randomNamefocus); 
+    userInput.addEventListener('mouseup', randomNameUnfocus);
 
 
 
@@ -152,3 +167,24 @@
     newjsSTextTwo.id = 'JStext';
     newjsSTextTwo.innerHTML = 'appended!';
     //document.getElementById('JStexts').appendChild(newjsSTextTwo); 
+
+
+
+    //access element with id input
+    let userText = document.getElementById('input');
+    //create func for input
+    let clickToType = event => {
+        //event.target.style.width = '14em';
+        //event.target.style.height = '1.5em';
+        event.target.style.fontSize = '140%'
+    };
+    //func to undo clickToType
+    let resetClickToType = event => {   
+        //event.target.style.width = '';
+        //event.target.style.height = '';
+        event.target.style.fontSize = '130%'
+    }
+    //create a mouseover event listener for userText that uses hover()
+    userText.addEventListener('mousedown', clickToType);
+    userText.addEventListener('mouseout', resetClickToType);
+

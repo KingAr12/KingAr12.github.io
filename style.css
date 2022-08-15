@@ -151,11 +151,25 @@ section.JStest {
     font-size: 120%;
     margin-right: 2em;
     display: none;
+    transition-duration: .1s;
 }
 
 .userInteraction button {
     margin-right: 1em;
 }   
+
+
+.userInput {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.userInput input {
+    color:rgb(39, 68, 68);
+    margin-top: .5em;
+    font-size: 110%;
+    transition-duration: .5s;
+}
 
 
 section.projects {  
@@ -169,6 +183,8 @@ section.projects h2 {
     font-size: 130%;
     letter-spacing: .2em;
     margin-bottom: 1.5em;
+    position: sticky;
+    top: 1em;
 }
 
 div.pjcontainer {
@@ -356,7 +372,6 @@ div.cp p {
         
         .userInteraction p {
             font-size: 90%;
-            margin-right: 1em;
         }
 
         div.food,
