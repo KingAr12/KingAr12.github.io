@@ -49,7 +49,7 @@ nav {
     padding-bottom: .6em;
     border-bottom: 1px solid rgb(224, 242, 243);
     margin: 1em auto;
-    width: 18%;
+    width: 22%;
     color: rgb(224, 242, 243);
 }
 
@@ -169,11 +169,12 @@ section.JStest {
     margin-top: .5em;
     font-size: 110%;
     transition-duration: .5s;
+    margin-bottom: 2em;
 }
 
 
-section.projects {  
-    margin: 2em auto;
+section.projects { 
+    margin: auto;
     height: auto;
 }
 
@@ -188,12 +189,12 @@ section.projects h2 {
 }
 
 div.pjcontainer {
-    height: 40em;
+    min-height: 20em;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: space-between;
 }
 
 div.food {
@@ -255,12 +256,12 @@ h3.pjlink a:hover {
 }
 
 
-.production h3 {
+.art h3 {
     width: 10em;
 }
 
 
-div.production {
+div.art {
     border-radius: 50%;
     flex-shrink: 0;
     height: 17em;
@@ -271,12 +272,38 @@ div.production {
     opacity: 0.9;
 }
 
-div.production h3 {
+div.art h3 {
     margin: 5em auto;
     width: fit-content;
 }
 
-div.production:hover {
+div.art:hover {
+    opacity: 1;
+}
+
+
+.games h3 {
+    width: 10em;
+}
+
+
+div.games {
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 17em;
+    width: 17em;
+    background-image: url('./imgs/backgroundImg03.jpeg');
+    background-position: 23% 50%;
+    background-size: 135%;
+    opacity: 0.9;
+}
+
+div.games h3 {
+    margin: 5em auto;
+    width: fit-content;
+}
+
+div.games:hover {
     opacity: 1;
 }
 
@@ -356,7 +383,7 @@ div.cp p {
 
     @media only screen and (max-width: 480px) {
         nav {
-            width: 65%;
+            width: 80%;
         };
 
         section.JStest div p {
@@ -372,6 +399,16 @@ div.cp p {
         
         .userInteraction p {
             font-size: 90%;
+        }
+
+        section.projects {
+            overflow: scroll;
+            height: 40em;
+            background-color: rgba(255, 255, 255, 0.282);
+        }
+
+        .ball {
+            margin-top: 2em;
         }
 
         div.food,
