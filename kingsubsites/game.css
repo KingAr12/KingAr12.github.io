@@ -109,6 +109,7 @@ section.game_window {
     width: fit-content;
     left: 5em;
     top: 17.6em;
+    transition-duration: 1s;
 }
 
 #floor {
