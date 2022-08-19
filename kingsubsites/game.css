@@ -101,6 +101,22 @@ section.game_window {
     margin-top: 1em;
 }
 
+#jump-button {
+    opacity: .5;
+    font-size: 120%;
+    font-weight: 900;
+    padding: .3em;
+    border-radius: .7em;
+    position: absolute;
+    right: 1em;
+    bottom: 8em;
+    cursor: pointer;
+}
+
+#jump-button:active {
+    opacity: 1;
+}
+
 #user {
     position: absolute;
     border: 1px solid rebeccapurple;
@@ -121,3 +137,106 @@ section.game_window {
     top: 18.8em;
     box-sizing: content-box;
 }
+
+
+section.JStest {
+    height: fit-content;
+}
+
+#JStexts {
+    text-align: center;
+    margin: auto; 
+}
+
+.JStest button {
+    border: none;
+    font-size: 100%;
+    letter-spacing: .2em;
+    width: 14%;
+    margin-top: 1em;
+    padding: .8em;
+    color:rgba(39, 68, 68, 0.552);
+    border-radius: 1.2em;
+    background-color: rgba(190, 227, 229, 0.673);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.JStest button:hover {
+    color:rgb(39, 68, 68);
+}
+
+.JStest button:active {
+    background-color: rgba(83, 191, 199, 0.616);
+}
+
+.JStest a:visited {
+    border: 1px solid rgb(71, 102, 104);
+    color:rgb(39, 68, 68);
+    background-color: rgba(83, 191, 199, 0.616);
+}
+
+#JStexts p {
+    margin-top: .5em;
+    font-size: 220%;
+    font-weight: 900;
+    letter-spacing: .5em;
+}
+
+
+.userInteraction {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    margin-top: 1em;
+}
+
+.userInteraction p {
+    font-size: 120%;
+    margin-right: 2em;
+    display: none;
+    transition-duration: .1s;
+}
+
+.userInteraction button {
+    margin-right: 1em;
+}   
+
+
+.userInput {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.userInput input {
+    color:rgb(39, 68, 68);
+    margin-top: .5em;
+    font-size: 110%;
+    transition-duration: .5s;
+    margin-bottom: 2em;
+}
+
+
+        @media only screen and (max-width: 480px) {
+
+            section.game_window {
+                position: relative;
+                border: 2px solid rgba(0, 0, 0, 0.437);
+                margin: auto;
+                width: 85%;
+                min-height: 20em;
+            }
+    
+            .JStest button {
+                width: 10em;
+                font-size: 70%;
+                margin-right: 2em;
+            }
+
+            .userInteraction p {
+                font-size: 90%;
+            }
+
+        }

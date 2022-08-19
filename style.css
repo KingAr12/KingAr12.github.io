@@ -103,25 +103,24 @@ section.JStest {
 }
 
 .JStest button {
-    border: none;
-    font-size: 100%;
+    border-bottom: 1px solid rgba(216, 239, 240, 0.515);
+    font-size: 70%;
     letter-spacing: .2em;
-    width: 14%;
+    width: fit-content;
     margin-top: 1em;
-    padding: .8em;
-    color: rgb(224, 242, 243);
-    border-radius: 1.2em;
-    background-color: rgba(190, 227, 229, 0.673);
+    padding: .2em;
+    color: rgba(224, 242, 243, 0.523);
+    background-color: rgba(71, 102, 104, 0);
     box-sizing: border-box;
     cursor: pointer;
 }
 
 .JStest button:hover {
-    color:rgb(39, 68, 68);
+    color: rgb(224, 242, 243);
 }
 
 .JStest button:active {
-    background-color: rgba(83, 191, 199, 0.616);
+    border-bottom: 1px solid rgb(216, 239, 240);
 }
 
 .JStest a:visited {
@@ -138,43 +137,8 @@ section.JStest {
 }
 
 
-.userInteraction {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    text-align: right;
-    margin-top: 1em;
-}
-
-.userInteraction p {
-    font-size: 120%;
-    margin-right: 2em;
-    display: none;
-    transition-duration: .1s;
-}
-
-.userInteraction button {
-    margin-right: 1em;
-}   
-
-
-.userInput {
-    margin-top: 1em;
-    text-align: center;
-}
-
-.userInput input {
-    color:rgb(39, 68, 68);
-    margin-top: .5em;
-    font-size: 110%;
-    transition-duration: .5s;
-    margin-bottom: 2em;
-}
-
-
-section.projects { 
-    margin: auto;
+section.projects {
+    margin: 1em 0em auto;
     height: auto;
 }
 
@@ -404,7 +368,8 @@ div.cp p {
         section.projects {
             overflow: scroll;
             height: 40em;
-            background-color: rgba(255, 255, 255, 0.282);
+            border-top: 3px solid rgb(216, 239, 240);
+            border-radius: 2em;
         }
 
         .ball {
