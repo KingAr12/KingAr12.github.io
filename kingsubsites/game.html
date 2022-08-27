@@ -53,7 +53,7 @@
 
             </section>
 
-            <section class="game_window">
+            <section class="game_window" id="gameWindow">
 
                 <h4 class="gameName">Press2Jump</h4>
 
@@ -69,17 +69,117 @@
         
                 <div class="userInteraction">
         
-                  <p id="userName">Random Name</p>
-        
-                  <button id="button" class="getRandomName">Get Random Fanstasy Name!</button>
+                    <p id="userName">Random Name</p>
+            
+                    <button id="button" class="getRandomName">Get Random Fanstasy Name!</button>
         
                 </div>
         
                 <div class="userInput">
         
-                  <p>Ask and recieve a random answer</p>
-        
-                  <input type="text" id="input">
+                    <label>Ask and recieve a random answer: </label>
+            
+                    <input type="text" class="input" id="text">
+
+                    <hr>
+
+                    <label>Convert to Celsius: </label>
+
+                    <input type="number" class="input" id="number">
+
+                    <hr>
+
+                    <label>Slider Time!: </label>
+
+                    <div id="slider">
+                        
+                        <span>min</span>
+
+                        <input type="range" value="1" min="0" max="10">
+
+                        <span>max</span>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="checkbox">
+
+                        <label>Which sign are you?: </label>
+
+                        <input type="checkbox" value="aries">
+                        <label for="aries">Aries</label>
+
+                        <input type="checkbox" value="taurus">
+                        <label for="taurus">Taurus</label>
+
+                        <input type="checkbox" value="gemini">
+                        <label for="gemini">Gemini</label>
+
+                        <input type="checkbox" value="cancer">
+                        <label for="cancer">Cancer</label>
+
+                        <input type="checkbox" value="leo">
+                        <label for="leo">Leo</label>
+
+                        <input type="checkbox" value="virgo">
+                        <label for="virgo">Virgo</label>
+
+                        <input type="checkbox" value="libra">
+                        <label for="libra">Libra</label>
+
+                        <input type="checkbox" value="scorpio">
+                        <label for="scorpio">Scorpio</label>
+
+                        <input type="checkbox" value="sagittarius">
+                        <label for="sagittarius">Sagittarius</label>
+
+                        <input type="checkbox" value="capricorn">
+                        <label for="capricorn">Capricorn</label>
+
+                        <input type="checkbox" value="aquarius">
+                        <label for="aquarius">Aquarius</label>
+
+                        <input type="checkbox" value="pisces">
+                        <label for="pisces">Pisces</label>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="checkbox">
+
+                        <label for="binary">True or False?:</label>
+
+                        <input type="radio" name="binary" value="true"> 
+                        <label for="true">TRUE</label>
+
+                        <input type="radio" name="binary" value="false"> 
+                        <label for="false">FALSE</label>  
+
+                    </div>
+
+                    <hr>
+
+                    <div class="checkbox">
+
+                        <label for="dropdown">Select One:</label>
+
+                        <select name="dropdown">
+                            <option value="first">First</option>
+                            <option value="second">Second</option>
+                            <option value="third">Third</option>
+                        </select>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="checkbox">
+
+                    <input type="submit" value="Submit to Reset">
+
+                    </div>
         
                 </div>
         

@@ -3,20 +3,24 @@
 /*player movement
 actual game */
 
+        //access game window element
+        let gameWindow = document.getElementById('gameWindow');
         //access user id to a variable
         let playerCharacter = document.getElementById('user');
         //make a jump function for playerCharacter
         let jumpUp = () => {
             playerCharacter.style.top = '5em';
         }
-        //add event listener for document key down jump()
-        document.addEventListener('keydown', jumpUp);
         //make a fall function for playerCharacter
         let fallDown = () => {
             playerCharacter.style.top = '17.6em';
         }
-        //add event listener for document key up fallDown()
-        document.addEventListener('keyup', fallDown);
+        //add on click to game window with anon func
+        gameWindow.onclick = function() {
+            gameWindow.style.border = '2px solid black';
+            document.addEventListener('keyup', fallDown);
+            document.addEventListener('keydown', jumpUp);
+        };
 
         //access element with id jump-button
         let jumpButton = document.getElementById('jump-button');
@@ -101,13 +105,18 @@ actual game */
 
 
 
-        //access element with id input
-        let userText = document.getElementById('input');
+        //array of user id inputs
+        userInputTypes = ['text', 'number', 'slider'];
+        //empty array for getelementbyid to get pushed into
+        userInputsElementById = [];
+        //function to push userInputsid into empty array above
+        userInputTypes.forEach(id => userInputsElementById.push(document.getElementById(id)));
         //create func for input
         let clickToType = event => {
         //event.target.style.width = '14em';
         //event.target.style.height = '1.5em';
         event.target.style.fontSize = '140%'
+        event.target.style.transitionDuration = '.1s'
         };
         //func to undo clickToType
         let resetClickToType = event => {   
@@ -116,5 +125,9 @@ actual game */
         event.target.style.fontSize = '130%'
         }
         //create a mouseover event listener for userText that uses hover()
+        let assignEvent = userText =>   {
         userText.addEventListener('mousedown', clickToType);
         userText.addEventListener('mouseout', resetClickToType);
+        };
+        //assign userInputsElementsNyId;
+        userInputsElementById.forEach(assignEvent);

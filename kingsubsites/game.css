@@ -207,15 +207,27 @@ section.JStest {
 
 .userInput {
     margin-top: 1em;
+    margin-bottom: 4em;
     text-align: center;
 }
 
-.userInput input {
+.input {
     color:rgb(39, 68, 68);
     margin-top: .5em;
     font-size: 110%;
     transition-duration: .5s;
-    margin-bottom: 2em;
+    margin-bottom: .6em;
+    margin-top: .6em;
+}
+
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.checkbox {
+    margin: 1em 0em;
 }
 
 
