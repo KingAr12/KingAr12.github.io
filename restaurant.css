@@ -133,6 +133,7 @@ a.nav:active {
 
 .photos {
     margin: 2em auto;
+    width: 100%;
 }
 
 .collage {
@@ -146,9 +147,11 @@ a.nav:active {
 figure.inline {
     padding: 1em;
     margin: 0 auto;
-    background-color:rgb(255, 217, 231);
-    flex-grow: 1;
-    flex-shrink: 0;
+    background-color:rgb(213, 146, 171);
+    width: 18em;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 3em;
 }
 
 figure.inline:hover {
@@ -157,8 +160,8 @@ figure.inline:hover {
 }
 
 img.img {
-    width: 18em;
-    height: 12em;
+    width: 15em;
+    height: auto;
 }
 
 figcaption {
@@ -176,6 +179,7 @@ figcaption {
 .menu table {
     color:rgb(255, 217, 231);
     margin: 0 auto;
+    width: 100%;
 }
 
 table.menu th,
@@ -269,33 +273,41 @@ footer h3 {
     }
 
     .collage {
+        width: 100%;
+        box-sizing: border-box;
         margin-top: 1em;
         height: 20em;
         overflow: scroll;
-        border: 4px solid rgb(148, 33, 77);
-        border-radius: 5em;
+        background-color:rgb(213, 146, 171);  
+        border-radius: 1em;
     }
 
     #menu {
         margin: auto;
-        width: 100%;
+        width: 95%;
     }
 
     table.menu th {
-        font-size: 250%;
+        font-size: 230%;
     }
 
     tr.menusize td {
-        font-size: 130%;
+        font-size: 120%;
     }
 
     tr.dish td {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     img.menpic {
         width: 100%;
         height: auto;
         display: block;
+    }
+
+
+    footer h3 {
+        margin-top: 1em;
+        font-size: 100%;
     }
 }
