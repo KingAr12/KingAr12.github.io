@@ -281,6 +281,9 @@ div.games:hover {
 footer {
     background-color: rgb(216, 239, 240);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer section.flinks {
@@ -385,6 +388,11 @@ div.cp p {
         div.food,
         div.production {
             opacity: 1;
+        }
+
+        footer {
+            position: relative;
+            
         }
 
     }
