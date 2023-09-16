@@ -30,6 +30,7 @@ let changeBgImg = () => {
     divBoxD.style.border = "2px solid white";
     divBoxD.style.backgroundImage = "url('../imgs/DCPride22.JPG')";
     divBoxD.children[0].style.letterSpacing = '.6em';
+    divBoxD.style.transitionDuration = "2s";
 }; 
 //addEventlistener mouseover divboxd and changebgimg
 divBoxD.addEventListener('mouseover', changeBgImg);

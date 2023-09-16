@@ -97,12 +97,13 @@ section.plgrid {
                 "date date tasks goals"
                 "image image image image";
     width: 100%;
-    height: 55em;
+    height: 70em;
     column-gap: 1em;
     justify-items: center;
     justify-content: stretch;
     align-items: stretch;
     align-content: stretch;
+    padding-bottom: 0%;
 }
 
 .box {
@@ -177,6 +178,10 @@ section.plgrid {
     width: 100%;
 }
 
+.b p {
+    border-color: red;
+}
+
 
 .c {
     grid-area: goals;
@@ -193,7 +198,7 @@ section.plgrid {
     background-position: 50% 20%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 30em;
     width: 100%;
     margin-bottom: 1em;
 }
